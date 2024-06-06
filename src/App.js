@@ -41,7 +41,7 @@ function App() {
   <div className="background">
   <NavBar/>
 
-  <FirstScreen/>
+  <FirstScreen scrolled={scrolled}/>
   <ThirdScreen/>
   <Feel/>
   <FormScreen/>

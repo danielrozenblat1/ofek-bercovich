@@ -2,7 +2,7 @@ import { useEffect } from "react"
 import styles from "./FirstScreen.module.css"
 import ScrollReveal from "scrollreveal"
 
-const FirstScreen=()=>{
+const FirstScreen=(props)=>{
 useEffect(()=>{
     ScrollReveal().reveal(`.${styles.description}`, {
         duration: 600,
@@ -30,7 +30,7 @@ useEffect(()=>{
 },[])
 return <>
 {/* <div className={styles.description}>נמאס לך להיות הגלגל השלישי כל הזמן?</div>    */}
-<div className={styles.description}>הגיע הזמן למצוא את <div className={styles.bold}>הזוגיות שאת ראויה לה</div> </div>   
+<div className={!props.scrolled?styles.description: styles.descriptionP}>הגיע הזמן למצוא את <div className={styles.bold}>הזוגיות שאת ראויה לה</div> </div>   
 <div className={styles.title}>בעזרת ליווי אישי <div className={styles.bold}> משנה חשיבה ומשנה חיים</div></div>   
 </>
 
