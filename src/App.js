@@ -10,6 +10,7 @@ import SecondScreen from './screens/SecondScreen';
 import ForthScreen from './screens/ForthScreen';
 import Silabus from './components/silabus/Silabus';
 import FormScreen from './components/form/FormScreen';
+import ByMe from './components/ByMe/ByMe';
 
 function App() {
   const [scrolled, setScrolled] = useState(false);
@@ -48,6 +49,7 @@ function App() {
   <WhoFits/>
   <Silabus/>
   <FormScreen/>
+<ByMe/>
   </div>
   </>
 }
