@@ -8,6 +8,16 @@
     z-index: -1;
     position: relative;
 }
+.header{
+  direction: rtl;
+  font-family: "Dragon";
+  font-size: 4.5rem;
+  margin:2% auto;
+  text-align: center;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  z-index: -1;
+  position: relative;
+}
 .bold {
     background:rgb(255, 255, 255);
     display: inline;
@@ -70,6 +80,16 @@
       text-align: center;
       text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
   }
+  .header{
+    direction: rtl;
+    font-family: "Dragon";
+    font-size:2.3rem;
+    margin:2% auto;
+    text-align: center;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    z-index: -1;
+    position: relative;
+  }
   .bold {
       background:rgb(255, 255, 255);
       display: inline;
@@ -126,6 +146,16 @@
       margin:3% auto;
       text-align: center;
       text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+  .header{
+    direction: rtl;
+    font-family: "Dragon";
+    font-size: 2.5rem;
+    margin:2% auto;
+    text-align: center;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    z-index: -1;
+    position: relative;
   }
   .bold {
       background:rgb(255, 255, 255);
@@ -186,6 +216,16 @@
       text-align: center;
       text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
   }
+  .header{
+    direction: rtl;
+    font-family: "Dragon";
+    font-size: 3rem;
+    margin:2% auto;
+    text-align: center;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    z-index: -1;
+    position: relative;
+  }
   .bold {
       background:rgb(255, 255, 255);
       display: inline;
@@ -242,6 +282,16 @@
       text-align: center;
       text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
   }
+  .header{
+    direction: rtl;
+    font-family: "Dragon";
+    font-size: 3.4rem;
+    margin:2% auto;
+    text-align: center;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    z-index: -1;
+    position: relative;
+  }
   .bold {
       background:rgb(255, 255, 255);
       display: inline;
@@ -273,6 +323,73 @@
       font-family: "Dragon";
       width:85%;
       font-size: 2.1rem;
+      margin:2% auto;
+      text-align: center;
+  
+    }
+    .descriptionP{
+      line-height: 1.5;
+          direction: rtl;
+          font-family: "Dragon";
+          width:85%;
+          font-size: 2.1rem;
+          margin:2% auto;
+          text-align: center;
+          padding-top:80px;
+      
+        }
+  }
+  @media only screen  and (min-width: 650px) and (max-width: 750px) {
+
+    .title{
+      direction: rtl;
+      font-family: "Dragon";
+      font-size: 3rem;
+      margin:3% auto;
+      text-align: center;
+      text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+  .header{
+    direction: rtl;
+    font-family: "Dragon";
+    font-size: 3.6rem;
+    margin:2% auto;
+    text-align: center;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    z-index: -1;
+    position: relative;
+  }
+  .bold {
+      background:rgb(255, 255, 255);
+      display: inline;
+      padding: 0.2rem 0.5rem;
+      border-radius: 0.5rem;
+      color: #050505;
+      text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      position: relative;
+    }
+    
+    .bold::before {
+      content: "";
+      position: absolute;
+      top: -5px;
+      left: -5px;
+      right: -5px;
+      bottom: -5px;
+      background: whitesmoke;
+      z-index: -1;
+      border-radius: 0.5rem;
+      filter: blur(5px);
+      opacity: 0.5;
+    }
+  
+    .description{
+  line-height: 1.5;
+      direction: rtl;
+      font-family: "Dragon";
+      width:85%;
+      font-size: 2.2rem;
       margin:2% auto;
       text-align: center;
   
