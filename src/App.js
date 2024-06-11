@@ -11,6 +11,7 @@ import ForthScreen from './screens/ForthScreen';
 import Silabus from './components/silabus/Silabus';
 import FormScreen from './components/form/FormScreen';
 import ByMe from './components/ByMe/ByMe';
+import FifthScreen from './screens/FifthScreen';
 
 function App() {
   const [scrolled, setScrolled] = useState(false);
@@ -46,6 +47,7 @@ function App() {
   <Feel/>
   <FormScreen/>
   <ForthScreen/>
+  <FifthScreen/>
   <WhoFits/>
   <Silabus/>
   <FormScreen/>

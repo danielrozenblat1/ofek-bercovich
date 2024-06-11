@@ -2,42 +2,199 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+    <link rel="icon" href="%PUBLIC_URL%אופק ברקוביץ אייקון.png" />
+    <!-- <style>
+      /* Apply styles to make the circular favicon for the browser tab */
+      /* You might need to adjust the size based on your design */
+      head > link[rel="icon"] {
+        display: block;
+        width: 32px; /* Adjust the size as needed */
+        height: 32px; /* Adjust the size as needed */
+        object-fit: contain;
+        border-radius: 50%;
+      }
+    </style> -->
+    <meta name="robots" content="index, follow" />
+    <meta name="googlebot" content="index, follow" />
+    <meta name="author" content="דניאל רוזנבלט">
+    <meta name="geo.region" content="IL">
+    
+    <meta name="keywords" content="אהבה"/>
+    <meta name="keywords" content="קשרים זוגיים"/>
+    <meta name="keywords" content="רווקה"/>
+    <meta name="keywords" content="רווקות"/>
+    <meta name="keywords" content="רווקת מאוחרת"/>
+    <meta name="keywords" content="גיל 30"/>
+    <meta name="keywords" content="גיל 40"/>
+    <meta name="keywords" content="משבר גיל ה40"/>
+    <meta name="keywords" content="משבר זוגי"/>
+    <meta name="keywords" content="משבר אישי"/>
+    <meta name="keywords" content="מערכות יחסים"/>
+    <meta name="keywords" content="אינטואיציה"/>
+    <meta name="keywords" content="מימוש עצמי">
+    <meta name="keywords" content="אהבה עצמית">
+    <meta name="keywords" content="ריקנות">
+    <meta name="keywords" content="חרדה">
+    <meta name="keywords" content="זוגיות">
+    <meta name="keywords" content="תקשורת מקרבת">
+    <meta name="keywords" content="תקשורת בינאישית">
+    <meta name="keywords" content="גברים">
+    <meta name="keywords" content="נשים">
+    <meta name="keywords" content="בגידות">
+    <meta name="keywords" content="תטא הילינג">
+    <meta name="keywords" content="NLP">
+    <meta name="keywords" content="CBT">
+    <meta name="keywords" content="טיפול רגשי">
+    <meta name="keywords" content="אהבה">
+    <meta name="keywords" content="רווקים">
+    <meta name="keywords" content="אפליקצית היכרויות">
+    <meta name="keywords" content="טינדר">
+    <meta name="keywords" content="באמבל">
+    <meta name="keywords" content="אוקיי קיופיד">
+    <meta name="keywords" content="מודעות">
+    <meta name="keywords" content="תודעה">
+    <meta name="keywords" content="התפתחות אישית">
+    <meta name="keywords" content="העשרה">
+    <meta name="keywords" content="ביטחון עצמי">
+    <meta name="keywords" content="ערך עצמי">
+    <meta name="keywords" content="מחוייבות">
+    <meta name="keywords" content="יוגה">
+    <meta name="keywords" content="פילאטיס">
+    <meta name="keywords" content="מסע">
+    <meta name="keywords" content="חיפוש עצמי">
+    <meta name="keywords" content="טקס">
+    <meta name="keywords" content="דייטים">
+    <meta name="keywords" content="דייט כושל">
+    <meta name="keywords" content="זוגיות רעילה">
+    <meta name="keywords" content="ריפוי">
+    <meta name="keywords" content="טיפול">
+    <meta name="keywords" content="ייעוץ">
+    <meta name="keywords" content="סשן">
+    <meta name="keywords" content="מערכת יחסים בריאה">
+    <meta name="keywords" content="בריאות הנפש">
+    <meta name="keywords" content="עצמי">
+    <meta name="keywords" content="גילוי עצמי">
+    <meta name="keywords" content="חיבור לעצמי">
+    <meta name="keywords" content="אתגר">
+    <meta name="keywords" content="התמודדות">
+    <meta name="keywords" content="מציאת בן זוג">
+    <meta name="keywords" content="בן זוג">
+    <meta name="keywords" content="אימון אישי">
+    <meta name="keywords" content="עזרה">
+    <meta name="keywords" content="לימוד עצמי">
+    <meta name="keywords" content="אהבת אמת">
+    <meta name="keywords" content="תהליך">
+    <meta name="keywords" content="חרדה">
+    <meta name="keywords" content="גבולות">
+    <meta name="keywords" content="השראה">
+    <meta name="keywords" content="מוטיבציה">
+    <meta name="keywords" content="זוגיות בריאה">
+    <meta name="keywords" content="קשרים בריאים">
+    <meta name="keywords" content="חסמים">
+    <meta name="keywords" content="דפוסי התנהגות">
+    <meta name="keywords" content="אמונות מגבילות">
+    <meta name="keywords" content="חיבה">
+    <meta name="keywords" content="געגוע">
+    <meta name="keywords" content="אקס">
+    <meta name="keywords" content="אמונה">
+    <meta name="keywords" content="שחרור חסמים">
+    <meta name="keywords" content="מציאת זוגיות">
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="twitter:title" content="האומץ להיות את - אופק ברקוביץ'">
+    <meta name="twitter:description" content="הגיע הזמן למצוא את הזוגיות שתמיד חלמת עליה">
+    <meta name="twitter:image" content="https://ofekberco.com/אופק ברקוביץ אייקון.png">
+    <meta name="theme-color" content="#000000" />
+    <meta name="geo.region" content="IL">
+
+    <meta property="og:title" content="האומץ להיות את - אופק ברקוביץ'" />
+    <meta property="og:description" content="הגיע הזמן למצוא את הזוגיות שתמיד חלמת עליה"/>
+    <meta property="og:image" content="https://ofekberco.com/אופק ברקוביץ אייקון.png" />
+    <meta property="og:url" content="https://ofekberco.com" />
+    <meta name="description" content="הגיע הזמן למצוא את הזוגיות שתמיד חלמת עליה"data-rh="true"/>
+    <link rel="canonical" href="https://ofekberco.com" />
+
+    <link rel="apple-touch-icon" href="https://ofekberco.comאופק ברקוביץ אייקון.png" />
+
+    
+
+
+
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <script type="application/ld+json">
+      {
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "name": "אופק ברקוביץ'",
+          "url": "https://ofekberco.com/",
+      
+      }
+  </script>
+
+  
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "ליווי אישי למציאת זוגיות שראויה לך",
+      "url": "https://ofekberco.com/"
+    }
+  </script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "סדנא למציאת זוגיות",
+      "url": "https://ofekberco.com/"
+    }
+  </script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": "אופק ברקוביץ'",
+      "url": "https://ofekberco.com/"
+    }
+  </script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": "ליווי אישי למציאת זוגיות",
+      "url": "https://ofekberco.com/"
+    }
+  </script>
+  
+  
+  
+  <!-- JSON-LD structured data for Corporation -->
+  <script type="application/ld+json">
+      {
+          "@context": "https://schema.org",
+          "@type": "Corporation",
+          "name": "האומץ להיות את - אופק ברקוביץ",
+      }
+  </script>
+  <!-- JSON-LD structured data for ContactPoint -->
+  <script type="application/ld+json">
+      {
+          "@context": "https://schema.org",
+          "@type": "ContactPoint",
+          "telephone": "0542002965",
+          "contactType": "customer service",
+     
+      }
+  </script>
+
+    <title>האומץ להיות את - אופק ברקוביץ'</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
+    <script src="https://cdn.enable.com/licenses/enable-L231329s3li1y4qd-1223-53054/init.js"></script>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
   </body>
 </html>
