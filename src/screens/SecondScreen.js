@@ -1,35 +1,27 @@
 import styles from "./SecondScreen.module.css"
-import result1 from "../images/אופק ברקוביץ לקוחות ממליצות 1.png"
-import result2 from "../images/אופק ברקוביץ לקוחות ממליצות 2.png"
-import result3 from "../images/אופק ברקוביץ לקוחות ממליצות 3.png"
-import result4 from "../images/אופק ברקוביץ לקוחות ממליצות 4.png"
-import result5 from "../images/אופק ברקוביץ לקוחות ממליצות 5.png"
-import result6 from "../images/אופק ברקוביץ לקוחות ממליצות 6.png"
-import result7 from "../images/אופק ברקוביץ לקוחות ממליצות 7.png"
-import result8 from "../images/אופק ברקוביץ לקוחות ממליצות 8.png"
-import result9 from "../images/אופק ברקוביץ לקוחות ממליצות 9.png"
-import result10 from "../images/אופק ברקוביץ לקוחות ממליצות 10.png"
-import result11 from "../images/אופק ברקוביץ לקוחות ממליצות 11.png"
-import result12 from "../images/אופק ברקוביץ לקוחות ממליצות 12.png"
-import result13 from "../images/אופק ברקוביץ לקוחות ממליצות 13.png"
-import result14 from "../images/אופק ברקוביץ לקוחות ממליצות 14.png"
-import result15 from "../images/אופק ברקוביץ לקוחות ממליצות 15.png"
-import result16 from "../images/אופק ברקוביץ לקוחות ממליצות 16.png"
-import result17 from "../images/אופק ברקוביץ לקוחות ממליצות 17.png"
-import result18 from "../images/אופק ברקוביץ לקוחות ממליצות 18.png"
-import result19 from "../images/אופק ברקוביץ לקוחות ממליצות 19.png"
-import result20 from "../images/אופק ברקוביץ לקוחות ממליצות 20.png"
-import result21 from "../images/אופק ברקוביץ לקוחות ממליצות 21.png"
-import result22 from "../images/אופק ברקוביץ לקוחות ממליצות 22.png"
-import result23 from "../images/אופק ברקוביץ לקוחות ממליצות 23.png"
-import result24 from "../images/אופק ברקוביץ לקוחות ממליצות 24.png"
-import result25 from "../images/אופק ברקוביץ לקוחות ממליצות 25.png"
-import result26 from "../images/אופק ברקוביץ לקוחות ממליצות 26.png"
-import result27 from "../images/אופק ברקוביץ לקוחות ממליצות 27.png"
-import result28 from "../images/אופק ברקוביץ לקוחות ממליצות 28.png"
-import result29 from "../images/אופק ברקוביץ לקוחות ממליצות 29.png"
-import result30 from "../images/אופק ברקוביץ לקוחות ממליצות 30.png"
-import result31 from "../images/אופק ברקוביץ לקוחות ממליצות 31.png"
+import result1 from "../images/אופק ברקוביץ המלצות סשנים 1.png"
+import result2 from "../images/אופק ברקוביץ המלצות סשנים 2.png"
+import result3 from "../images/אופק ברקוביץ המלצות סשנים 3.png"
+import result4 from "../images/אופק ברקוביץ המלצות סשנים 4.png"
+import result5 from "../images/אופק ברקוביץ המלצות סשנים 5.png"
+import result6 from "../images/אופק ברקוביץ המלצות סשנים 6.png"
+import result7 from "../images/אופק ברקוביץ המלצות סשנים 7.png"
+import result8 from "../images/אופק ברקוביץ המלצות סשנים 8.png"
+import result9 from "../images/אופק ברקוביץ המלצות סשנים 9.png"
+import result10 from "../images/אופק ברקוביץ המלצות סשנים 10.png"
+import result11 from "../images/אופק ברקוביץ המלצות סשנים 11.png"
+import result12 from "../images/אופק ברקוביץ המלצות סשנים 12.png"
+import result13 from "../images/אופק ברקוביץ המלצות סשנים 13.png"
+import result14 from "../images/אופק ברקוביץ המלצות סשנים 14.png"
+import result15 from "../images/אופק ברקוביץ המלצות סשנים 15.png"
+
+import result17 from "../images/אופק ברקוביץ המלצות סשנים 17.png"
+import result18 from "../images/אופק ברקוביץ המלצות סשנים 18.png"
+import result19 from "../images/אופק ברקוביץ המלצות סשנים 19.png"
+import result20 from "../images/אופק ברקוביץ המלצות סשנים 20.png"
+import result21 from "../images/אופק ברקוביץ המלצות סשנים 21.png"
+import result22 from "../images/אופק ברקוביץ המלצות סשנים 22.png"
+
 
 
 import 'slick-carousel/slick/slick.css';
@@ -46,7 +38,7 @@ const SecondScreen=()=>{
         speed: 500,
         autoplay: true, // Enable autoplay
         autoplaySpeed: 2500,
-        slidesToShow: window.innerWidth < 450 ? 1 : window.innerWidth < 650 ? 2 : 3,
+        slidesToShow: window.innerWidth <650 ? 1 : window.innerWidth < 850 ? 2 :window.innerWidth < 1250 ? 3: 4,
         slidesToScroll:1,
   
       };
@@ -114,10 +106,7 @@ const SecondScreen=()=>{
             type: 'image',
             src: result15,
           },
-          {
-            type: 'image',
-            src: result16,
-          },
+       
           {
             type: 'image',
             src: result17,
@@ -142,48 +131,13 @@ const SecondScreen=()=>{
             type: 'image',
             src: result22,
           },
-          {
-            type: 'image',
-            src: result23,
-          },
-          {
-            type: 'image',
-            src: result24,
-          },
-          {
-            type: 'image',
-            src: result25,
-          },
-          {
-            type: 'image',
-            src: result26,
-          },
-          {
-            type: 'image',
-            src: result27,
-          },
-          {
-            type: 'image',
-            src: result28,
-          },
-          {
-            type: 'image',
-            src: result29,
-          },
-          {
-            type: 'image',
-            src: result30,
-          },
-          {
-            type: 'image',
-            src: result31,
-          },
+
     ];
     
    
     return <>
     <div className={styles.background} id="לקוחות ממליצות">
-<div className={styles.title}>הלקוחות שלי רצו לדבר אתכם לפני..</div>
+<div className={styles.title}>תשמעו קצת ממי שעבר דרכי..</div>
 <div className={styles.description}>מוזמנים להחליק ולהתרשם</div>
 <div className={styles.sliderContainer}>
         <Slider {...sliderSettings}>

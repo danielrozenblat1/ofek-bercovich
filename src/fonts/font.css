@@ -10,6 +10,19 @@
     font-weight:light;
     font-style: normal;
   }
+
+@font-face {
+  font-family: 'AssistantL';
+  src: url('./Assistant-VariableFont_wght.ttf') format('truetype');
+  font-weight:100;
+  font-style: normal;
+}
+  @font-face {
+    font-family: 'Fredoka';
+    src: url('./Fredoka-VariableFont_wdth\,wght.ttf') format('truetype');
+    font-weight:bold;
+    font-style: normal;
+  }
   @font-face {
     font-family: 'Dragon';
     src: url('./buDrakonit2.1-Bold.otf') format('truetype');

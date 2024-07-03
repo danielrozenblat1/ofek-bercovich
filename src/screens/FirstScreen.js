@@ -29,10 +29,11 @@ useEffect(()=>{
       });
 },[])
 return <>
-{/* <div className={styles.description}>נמאס לך להיות הגלגל השלישי כל הזמן?</div>    */}
-<div className={!props.scrolled?styles.description: styles.descriptionP}>הגיע הזמן למצוא את <div className={styles.bold}>הזוגיות שאת ראויה לה</div> </div>   
-<div className={styles.title}>בעזרת ליווי אישי <div className={styles.bold}> משנה חשיבה ומשנה חיים</div></div>   
-<div className={styles.header}>"הזוגיות שלך בדרך.. והכל בסדר איתך!"</div>
+
+<div className={!props.scrolled? styles.description: styles.descriptionP}>הסיפור שלכם אינו מגדיר אתכם</div>   
+<div className={styles.title}>אלא</div>   
+<div className={styles.header}>מי שאתם בוחרים להיות</div>
+  
 </>
 
 

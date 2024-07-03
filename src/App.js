@@ -12,6 +12,9 @@ import Silabus from './components/silabus/Silabus';
 import FormScreen from './components/form/FormScreen';
 import ByMe from './components/ByMe/ByMe';
 import FifthScreen from './screens/FifthScreen';
+import Livui from './components/Livui/Livui';
+import Teta from './components/teta/Teta';
+import SocialIcons from './components/social/Social';
 
 function App() {
   const [scrolled, setScrolled] = useState(false);
@@ -46,11 +49,12 @@ function App() {
   <ThirdScreen/>
   <Feel/>
   <FormScreen/>
+  <Livui/>
   <ForthScreen/>
+
+  <Teta/>
   <FifthScreen/>
-  <WhoFits/>
-  <Silabus/>
-  <FormScreen/>
+
 <ByMe/>
   </div>
   </>

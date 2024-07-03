@@ -54,10 +54,11 @@ const NavBar = () => {
         </div>}
       
          {width>=850 && <div className={styles.row}>
-          <ScrollLink to="צור קשר" smooth={true} duration={1000} offset={-100}><div className={styles.navLink}>צרי קשר</div></ScrollLink>
-          <ScrollLink to="סילבוס" smooth={true} duration={1000} offset={-100}><div className={styles.navLink}>לסילבוס המלא</div></ScrollLink>
-          <ScrollLink to="לקוחות ממליצות" smooth={true} duration={1000} offset={-100}><div className={styles.navLink}>לקוחות ממליצות</div></ScrollLink>
+          <ScrollLink to="צרי קשר" smooth={true} duration={1000} offset={-100}><div className={styles.navLink}>צרי קשר</div></ScrollLink>
           <ScrollLink to="קצת עלי" smooth={true} duration={1000} offset={-100}><div className={styles.navLink}>קצת עלי</div></ScrollLink>
+          <ScrollLink to="המלצות" smooth={true} duration={1000} offset={-100}><div className={styles.navLink}>המלצות</div></ScrollLink>
+          <ScrollLink to="תטא הילינג" smooth={true} duration={1000} offset={-100}><div className={styles.navLink}>תטא הילינג</div></ScrollLink>
+          <ScrollLink to="תכנית ליווי" smooth={true} duration={1000} offset={-100}><div className={styles.navLink}>תכנית ליווי</div></ScrollLink>
             </div>}
       
         <div className={`${styles.navLinks} ${isOpen ? styles.openLinks : ''}`}>
@@ -66,10 +67,11 @@ const NavBar = () => {
           </div>
           <ul>
     
-            <li><ScrollLink  onClick={closeMenu} to="צור קשר" smooth={true} duration={1000} offset={-100}><div className={styles.navLink}>צרי קשר</div></ScrollLink></li>
-            <li><ScrollLink  onClick={closeMenu} to="סילבוס" smooth={true} duration={1000} offset={-100}><div className={styles.navLink}>לסילבוס המלא</div></ScrollLink></li>
-            <li><ScrollLink  onClick={closeMenu} to="לקוחות ממליצות" smooth={true} duration={1000} offset={-100}><div className={styles.navLink}>לקוחות ממליצות</div></ScrollLink></li>
-            <li><ScrollLink   onClick={closeMenu} to="קצת עלי" smooth={true} duration={1000} offset={-100}><div className={styles.navLink}>קצת עלי</div></ScrollLink></li>
+            <li><ScrollLink  onClick={closeMenu} to="צרי קשר" smooth={true} duration={1000} offset={-100}><div className={styles.navLink}>צרי קשר</div></ScrollLink></li>
+            <li><ScrollLink  onClick={closeMenu} to="קצת עלי" smooth={true} duration={1000} offset={-100}><div className={styles.navLink}>קצת עלי</div></ScrollLink></li>
+            <li><ScrollLink  onClick={closeMenu} to="המלצות" smooth={true} duration={1000} offset={-100}><div className={styles.navLink}>המלצות</div></ScrollLink></li>
+            <li><ScrollLink   onClick={closeMenu} to="תטא הילינג" smooth={true} duration={1000} offset={-100}><div className={styles.navLink}>תטא הילינג</div></ScrollLink></li>
+            <li><ScrollLink   onClick={closeMenu} to="תכנית ליווי" smooth={true} duration={1000} offset={-100}><div className={styles.navLink}>תכנית ליווי</div></ScrollLink></li>
             <div className={styles.logo}>
             <img className={styles.navImage} src={logo} alt="אופק ברקוביץ לוגו"/>
           </div>

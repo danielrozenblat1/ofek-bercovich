@@ -3,7 +3,7 @@ import {Player} from "@lordicon/react"
 
 import { useRef } from "react"
 import Box from "../components/Box/Box"
-import check from "../icons/wired-lineal-37-approve-checked-simple.json"
+import check from "../icons/wired-gradient-1358-tap-two-fingers-once.json"
 import Button from "../components/button/Button"
 const ThirdScreen=()=>{
     const playerRef1=useRef(null);
@@ -13,12 +13,10 @@ const ThirdScreen=()=>{
 return <>
 {/* <div className={styles.title}>אז איך זה עובד ?</div>    */}
 <div className={styles.row}>
-<Box icon={check} title=" 15 בנות בקבוצה" description="סביבה מנצחת היא חלק מתהליך השינוי שלך"/>
-<Box icon={check} title=" 6 שבועות" description="אורך הליווי הוא כחודש וחצי"/>
+<Box to="תכנית ליווי" icon={check} title="תכנית ליווי קבוצתית" description="הזוגיות שלך בדרך... והכל בסדר איתך" little="לנשים מתחת לגיל 30"/>
+<Box  to="תטא הילינג"  icon={check} title="תטא הילינג" description="סשנים 1:1" little="קורסים רשמיים של השיטה להתפתחות אישית"/>
 </div>
-<div className={styles.row}><Box icon={check} title="12 מפגשים" description="2 מפגשים בכל שבוע"/>
-<Box icon={check} title="90 דקות כל מפגש" description="90 דקות של כתיבה, התמסרות ושינוי "/>
-</div>
+
 <Button text="לחצי כאן לסילבוס המלא"/>
 </>
 
