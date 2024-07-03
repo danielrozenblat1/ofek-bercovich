@@ -9,7 +9,7 @@ const nameRef=useRef(null)
 const phoneRef=useRef(null)
 const mailRef=useRef(null)
 
-const reciver="" 
+const reciver="ofekberco@gmail.com" 
 const submitHandler=async(e)=>{
     e.preventDefault()
     const name=nameRef.current.value
