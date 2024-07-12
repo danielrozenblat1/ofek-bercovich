@@ -31,12 +31,12 @@ const Box=(props)=>{
       });
     },[])
     return <>
-        <div className={styles.box}>
+      <ScrollLink to={props.to} smooth={true} duration={1000} offset={-100} className={styles.box}><div>
         <ScrollLink to={props.to} smooth={true} duration={1000} offset={-100} className={styles.circle}><div className={styles.icon}><Player icon={props.icon} ref={playerRef1} size="100%" loop={true} onComplete={handleComplete}></Player></div></ScrollLink>
         <div className={styles.title}>{props.title}</div>
         <div className={styles.description}>{props.description}</div>
         {props.little && <div className={styles.little}>{props.little}</div>}
-        </div>
+        </div></ScrollLink>  
     
     </>
 }

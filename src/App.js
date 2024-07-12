@@ -15,6 +15,7 @@ import FifthScreen from './screens/FifthScreen';
 import Livui from './components/Livui/Livui';
 import Teta from './components/teta/Teta';
 import SocialIcons from './components/social/Social';
+import NavBarNew from './components/NewNav/NavBarNew';
 
 function App() {
   const [scrolled, setScrolled] = useState(false);
@@ -43,18 +44,19 @@ function App() {
 
   return <>
   <div className="background">
-  <NavBar/>
+  <NavBarNew/>
 
   <FirstScreen scrolled={scrolled}/>
   <ThirdScreen/>
-  <Feel/>
-  <FormScreen/>
+  {/* <Feel/> */}
+  {/* <FormScreen/> */}
   <Livui/>
-  <ForthScreen/>
 
-  <Teta/>
+
+
   <FifthScreen/>
-
+  <Teta/>
+  <ForthScreen/>
 <ByMe/>
   </div>
   </>

@@ -1,240 +1,133 @@
-
-.title{
-    direction: rtl;
-    font-family: "Assistant";
-    font-size: 2.5rem;
-    width:70%;    
-    margin:2% auto;
-    text-align: center;
-  }
-  .description{
-    direction: rtl;
-    font-family: "AssistantR";
-    width:60%; 
-    font-size: 1.2rem;
-    margin:2% auto;
-    text-align: center;
-  }
-
-
-  .more{
-    direction: rtl;
-    font-family: "Assistant";
-    width:70%; 
-    font-size: 1.5rem;
-    margin:2% auto;
-    text-align: center;
-  }
-.text{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    direction: rtl;
-    margin-right:auto;
-    padding:20px;
-  }
-  .wrap{
-    width:40%; 
-    justify-content: center;
-    margin:0 auto;
-  }
-  
-  .checkmark{
-    font-size: 30px; 
-    color: rgb(129, 7, 153); 
-  }
-
-  @media only screen and (max-width: 350px) {
-
-
-    
 .title{
   direction: rtl;
-  font-family: "Assistant";
-  font-size: 2rem;
-  width:90%;    
-  margin:2% auto;
+  font-family: "Karantina";
+  font-size: 2.5rem;
+  color: rgb(66, 13, 116);
+  width: 70%;    
+  font-style: italic;
+  margin: 2% auto;
   text-align: center;
 }
+
 .description{
   direction: rtl;
   font-family: "AssistantR";
-  width:90%; 
+  width: 60%; 
   font-size: 1.2rem;
-  margin:2% auto;
+  margin: 2% auto;
   text-align: center;
 }
-
 
 .more{
   direction: rtl;
   font-family: "Assistant";
-  width:70%; 
-  font-size: 1.2rem;
-  margin:2% auto;
+  width: 70%; 
+  font-size: 1.5rem;
+  margin: 2% auto;
   text-align: center;
 }
+
 .text{
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: center;
   direction: rtl;
-  margin-right:auto;
-  padding:20px;
+  margin: 0;
+  padding: 10px;
 }
+
 .wrap{
-  width:95%; 
+  width: 40%; 
   justify-content: center;
-  margin:0 auto;
+  margin: 0 auto;
 }
+
 .checkmark{
-  font-size: 20px; 
+  font-size: 30px; 
   color: rgb(129, 7, 153); 
+  margin-right: 10px; /* Adjust this value as needed for spacing */
 }
+
+@media only screen and (max-width: 350px) {
+
+  .title{
+      font-size: 2rem;
+      width: 90%;    
   }
-  @media only screen and (min-width: 350px) and (max-width: 450px) {
-
-
-    
-    .title{
-      direction: rtl;
-      font-family: "Assistant";
-      font-size: 2.2rem;
-      width:90%;    
-      margin:2% auto;
-      text-align: center;
-    }
-    .description{
-      direction: rtl;
-      font-family: "AssistantR";
-      width:90%; 
-      font-size: 1.25rem;
-      margin:2% auto;
-      text-align: center;
-    }
-    
-    
-    .more{
-      direction: rtl;
-      font-family: "Assistant";
-      width:80%; 
-      font-size: 1.4rem;
-      margin:2% auto;
-      text-align: center;
-    }
-    .text{
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-      direction: rtl;
-      margin-right:auto;
-      padding:20px;
-    }
-    .wrap{
-      width:95%; 
-      justify-content: center;
-      margin:0 auto;
-    }
-    .checkmark{
+  .description{
+      width: 90%; 
+  }
+  .more{
+      font-size: 1.2rem;
+      width: 70%; 
+  }
+  .wrap{
+      width: 95%; 
+  }
+  .checkmark{
       font-size: 20px; 
-      color: rgb(129, 7, 153); 
-    }
-      }
-      @media only screen and (min-width: 450px) and (max-width: 850px) {
+  }
+}
 
-        .title{
-          direction: rtl;
-          font-family: "Assistant";
-          font-size: 2.5rem;
-          width:90%;    
-          margin:2% auto;
-          text-align: center;
-        }
-        .description{
-          direction: rtl;
-          font-family: "AssistantR";
-          width:90%; 
-          font-size: 1.25rem;
-          margin:2% auto;
-          text-align: center;
-        }
-        
-        
-        .more{
-          direction: rtl;
-          font-family: "Assistant";
-          width:80%; 
-          font-size: 1.5rem;
-          margin:2% auto;
-          text-align: center;
-        }
-        .text{
-          display: flex;
-          flex-direction: row;
-          align-items: center;
-          justify-content: center;
-          direction: rtl;
-          margin-right:auto;
-          padding:20px;
-        }
-        .wrap{
-          width:90%; 
-          justify-content: center;
-          margin:0 auto;
-        }
-        .checkmark{
-          font-size: 25px; 
-          color: rgb(129, 7, 153); 
-        }
-          }
+@media only screen and (min-width: 350px) and (max-width: 450px) {
 
-          @media only screen and (min-width: 850px) and (max-width: 1150px) {
+  .title{
+      font-size: 2rem;
+      width: 95%;    
+  }
+  .description{
+      width: 90%; 
+  }
+  .more{
+      font-size: 1.4rem;
+      width: 80%; 
+  }
+  .wrap{
+      width: 95%; 
+  }
+  .checkmark{
+      font-size: 20px; 
+  }
+}
 
-            .title{
-              direction: rtl;
-              font-family: "Assistant";
-              font-size: 2.8rem;
-              width:90%;    
-              margin:2% auto;
-              text-align: center;
-            }
-            .description{
-              direction: rtl;
-              font-family: "AssistantR";
-              width:90%; 
-              font-size: 1.4rem;
-              margin:2% auto;
-              text-align: center;
-            }
-            
-            
-            .more{
-              direction: rtl;
-              font-family: "Assistant";
-              width:80%; 
-              font-size: 1.8rem;
-              margin:2% auto;
-              text-align: center;
-            }
-            .text{
-              display: flex;
-              flex-direction: row;
-              align-items: center;
-              justify-content: center;
-              direction: rtl;
-              margin-right:auto;
-              padding:20px;
-            }
-            .wrap{
-              width:70%; 
-              justify-content: center;
-              margin:0 auto;
-            }
-            .checkmark{
-              font-size: 25px; 
-              color: rgb(129, 7, 153); 
-            }
-              }
+@media only screen and (min-width: 450px) and (max-width: 850px) {
+
+  .title{
+      font-size: 2.5rem;
+      width: 90%;    
+  }
+  .description{
+      width: 90%; 
+  }
+  .more{
+      font-size: 1.5rem;
+      width: 80%; 
+  }
+  .wrap{
+      width: 90%; 
+  }
+  .checkmark{
+      font-size: 25px; 
+  }
+}
+
+@media only screen and (min-width: 850px) and (max-width: 1150px) {
+
+  .title{
+      font-size: 2.8rem;
+      width: 90%;    
+  }
+  .description{
+      width: 90%; 
+  }
+  .more{
+      font-size: 1.8rem;
+      width: 80%; 
+  }
+  .wrap{
+      width: 70%; 
+  }
+  .checkmark{
+      font-size: 25px; 
+  }
+}

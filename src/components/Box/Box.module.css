@@ -6,15 +6,15 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* הוסף צל לקופסא */
     width:300px;
     margin:2% auto;
-
+  cursor: pointer;
     height:150px
   }
   
   .circle {
     position: absolute;
-    top: -20px;
-    right: -20px;
-    background: #818181; /* צבע העיגול */
+    top: -10px;
+    right: 0;
+
 cursor: pointer;
 
     border-radius: 50%;
@@ -23,7 +23,7 @@ cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* צל לעיגול */
+   
   }
   .icon{
     width: 100%;
@@ -32,13 +32,14 @@ cursor: pointer;
   }
   .title{
     direction: rtl;
-    font-family: "Assistant";
+    font-family: "Dragon";
     font-size: 2.2rem;
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
     margin:3% auto;
     position: absolute;
     top:50px;
     left:50%;
+    color:rgb(75, 5, 140);
     width: 100%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -86,23 +87,24 @@ width: 100%;
     .circle {
       position: absolute;
       top: -10px;
-      right: -10px;
-      background: #818181; /* צבע העיגול */
-   
+      right: 0;
+  
+  cursor: pointer;
+  
       border-radius: 50%;
-      width: 55px;
-      height: 55px;
+      width: 60px;
+      height: 60px;
       display: flex;
       justify-content: center;
       align-items: center;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* צל לעיגול */
+     
     }
     .icon{
       width: 100%;
     }
     .title{
       direction: rtl;
-      font-family: "Assistant";
+      font-family: "Dragon";
       font-size: 1.6rem;
       margin:3% auto;
       position: absolute;
@@ -155,19 +157,17 @@ width: 100%;
     .circle {
       position: absolute;
       top: -10px;
-      right: -10px;
-      background: #818181; /* צבע העיגול */
-   
+      right: 0;
+  
+  cursor: pointer;
+  
       border-radius: 50%;
-      width: 55px;
-      height: 55px;
+      width: 60px;
+      height: 60px;
       display: flex;
       justify-content: center;
       align-items: center;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* צל לעיגול */
-    }
-    .icon{
-      width: 100%;
+     
     }
     .title{
       direction: rtl;
@@ -225,23 +225,24 @@ width: 100%;
     .circle {
       position: absolute;
       top: -15px;
-      right: -15px;
-      background: #818181; /* צבע העיגול */
-   
+      right: 0;
+  
+  cursor: pointer;
+  
       border-radius: 50%;
-      width: 60px;
-      height: 60px;
+      width: 70px;
+      height: 70px;
       display: flex;
       justify-content: center;
       align-items: center;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* צל לעיגול */
+     
     }
     .icon{
       width: 100%;
     }
     .title{
       direction: rtl;
-      font-family: "Assistant";
+      font-family: "Dragon";
       font-size: 2rem;
       margin:3% auto;
       position: absolute;
@@ -294,23 +295,24 @@ width: 100%;
     .circle {
       position: absolute;
       top: -15px;
-      right: -15px;
-      background: #818181; /* צבע העיגול */
-   
+      right: 0;
+  
+  cursor: pointer;
+  
       border-radius: 50%;
-      width: 60px;
-      height: 60px;
+      width: 70px;
+      height: 70px;
       display: flex;
       justify-content: center;
       align-items: center;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* צל לעיגול */
+     
     }
     .icon{
       width: 100%;
     }
     .title{
       direction: rtl;
-      font-family: "Assistant";
+      font-family: "Dragon";
       font-size: 2rem;
       margin:3% auto;
       position: absolute;
@@ -362,24 +364,25 @@ width: 100%;
     
     .circle {
       position: absolute;
-      top: -15px;
-      right: -15px;
-      background: #818181; /* צבע העיגול */
-   
+      top: -10px;
+      right: 0;
+  
+  cursor: pointer;
+  
       border-radius: 50%;
-      width: 50px;
-      height: 50px;
+      width: 60px;
+      height: 60px;
       display: flex;
       justify-content: center;
       align-items: center;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* צל לעיגול */
+     
     }
     .icon{
       width: 100%;
     }
     .title{
       direction: rtl;
-      font-family: "Assistant";
+      font-family: "Dragon";
       font-size: 1.8rem;
       margin:3% auto;
       position: absolute;
@@ -431,24 +434,25 @@ width: 100%;
     
     .circle {
       position: absolute;
-      top: -15px;
-      right: -15px;
-      background: #818181; /* צבע העיגול */
-   
+      top: -10px;
+      right: 0;
+  
+  cursor: pointer;
+  
       border-radius: 50%;
-      width: 50px;
-      height: 50px;
+      width: 60px;
+      height: 60px;
       display: flex;
       justify-content: center;
       align-items: center;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* צל לעיגול */
+     
     }
     .icon{
       width: 100%;
     }
     .title{
       direction: rtl;
-      font-family: "Assistant";
+      font-family: "Dragon";
       font-size: 2rem;
       margin:3% auto;
       position: absolute;

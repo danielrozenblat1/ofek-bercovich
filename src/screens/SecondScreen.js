@@ -136,7 +136,7 @@ const SecondScreen=()=>{
     
    
     return <>
-    <div className={styles.background} id="לקוחות ממליצות">
+    <div className={styles.background} id="המלצות">
 <div className={styles.title}>תשמעו קצת ממי שעבר דרכי..</div>
 <div className={styles.description}>מוזמנים להחליק ולהתרשם</div>
 <div className={styles.sliderContainer}>
@@ -151,7 +151,7 @@ const SecondScreen=()=>{
           ))}
         </Slider>
       </div>
-  <Button text="אופק, בואי נדבר"/>
+
   </div>
     </>
 }

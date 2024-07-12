@@ -25,7 +25,13 @@
   }
   @font-face {
     font-family: 'Dragon';
-    src: url('./buDrakonit2.1-Bold.otf') format('truetype');
+    src: url('./Camping\ Bold.ttf') format('truetype');
+    font-weight:800;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Karantina';
+    src: url('./Karantina-Bold.ttf') format('truetype');
     font-weight:800;
     font-style: normal;
   }

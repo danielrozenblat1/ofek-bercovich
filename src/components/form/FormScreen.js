@@ -1,77 +1,90 @@
-import { useRef, useState } from "react"
-import styles from "./FormScreen.module.css"
-import { useNavigate } from "react-router-dom"
+import { useRef, useState } from "react";
+import styles from "./FormScreen.module.css";
 
+const FormScreen = () => {
+  const [submitted, setSubmitted] = useState(false);
+  const nameRef = useRef(null);
+  const phoneRef = useRef(null);
+  const emailRef = useRef(null);
+  const reasonRef = useRef(null);
+  const agreeRef = useRef(null);
+  const reciver = "ofekberco@gmail.com";
 
-const FormScreen=()=>{
-    const [submitted ,setSubmitted]=useState(false)
-const nameRef=useRef(null)
-const phoneRef=useRef(null)
-const mailRef=useRef(null)
+  const submitHandler = async (e) => {
+    e.preventDefault();
+    const name = nameRef.current.value;
+    const phone = phoneRef.current.value;
+    const email = emailRef.current.value;
+    const reason = reasonRef.current.value;
+    const agree = agreeRef.current.checked;
 
-const reciver="ofekberco@gmail.com" 
-const submitHandler=async(e)=>{
-    e.preventDefault()
-    const name=nameRef.current.value
-    const phone=phoneRef.current.value
-    const email=mailRef.current.value
-    if(name.trim().length<=2){
-    
-    alert("אנא הכניסי שם מלא ")
-    return;
+    if (name.trim().length <= 2) {
+      alert("אנא הכנס שם מלא");
+      return;
     }
-    if(phone.trim().length!==10){
-    
-    alert("אנא הכניסי מספר טלפון הכולל 10 ספרות ")
-    return;
-        }
-        if(!email.includes("@")){
-         
-            alert("אנא הכניסי מייל תקין ")
-            return;
-            }
+    if (phone.trim().length !== 10) {
+      alert("אנא הכנס מספר טלפון הכולל 10 ספרות");
+      return;
+    }
+    if (!email.includes("@")) {
+      alert("אנא הכנס מייל תקין");
+      return;
+    }
+    if (!agree) {
+      alert("אנא אשר/י לקבל דואר במייל");
+      return;
+    }
 
+    const formData = {
+      name: name,
+      phone: phone,
+      email: email,
+      reason: reason,
+      reciver: reciver,
+    };
 
-            
-       
-   const formData={
-    name:name,
-    phone:phone,
-    email:email,
-    
-    reciver:reciver
-   }
-const response= await fetch('https://dynamic-server-dfc88e1f1c54.herokuapp.com/leads/newLead',{
-    method:"POST",
-    headers:{'Content-Type':'application/json'},
-    body:JSON.stringify(formData)
-   })
-        
-        if(response.ok){
+    const response = await fetch('https://dynamic-server-dfc88e1f1c54.herokuapp.com/leads/newLead', {
+      method: "POST",
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(formData),
+    });
 
-        alert("שמרנו את הפרטים שלך, ניצור קשר בימים הקרובים")
-        nameRef.current.value=""
-        phoneRef.current.value=""
-        mailRef.current.value=""
-       setSubmitted(true)
-        }
-    
-}
+    if (response.ok) {
+      alert("שמרנו את הפרטים שלך, ניצור קשר בימים הקרובים");
+      nameRef.current.value = "";
+      phoneRef.current.value = "";
+      emailRef.current.value = "";
+      agreeRef.current.checked = false;
+    }
+    console.log(formData);
+  };
 
+  return (
+    <>
+      <div className={styles.title} id="צרו קשר">
+        לשיחת התאמה ללא עלות, השאירי פרטים
+      </div>
+      <form className={styles.form}>
+        <div className={styles.column}>
+          <input className={styles.input} ref={nameRef} placeholder="שם מלא" />
+          <input className={styles.input} ref={phoneRef} placeholder="מספר טלפון" />
+          <input className={styles.input} ref={emailRef} placeholder="מייל" />
+          <select ref={reasonRef} className={styles.input}>
+            <option value="תכנית ליווי">תכנית ליווי</option>
+            <option value="טיפולי תטא הילינג">טיפולי תטא הילינג</option>
+            <option value="קורסי תטא הילינג">קורסי תטא הילינג</option>
+          </select>
+          <label className={styles.checkboxContainer}>
+            <input type="checkbox" ref={agreeRef} />
+            אני מאשר/ת לקבל דואר במייל
+          </label>
+          <button className={styles.button} onClick={submitHandler}>
+            אופק, אני מחכה לשיחה
+          </button>
+        </div>
+      </form>
+    </>
+  );
+};
 
-return <>
-
-<div className={styles.title} id="צור קשר">השאירי פרטים כאן כדי להתחיל לקחת שליטה על החיים שלך</div>
-<form className={styles.form}>
-<div className={styles.column}>
-<input className={styles.input} ref={nameRef} placeholder="שם מלא"></input>
-<input className={styles.input} ref={phoneRef} placeholder="מספר טלפון"></input>
-<input className={styles.input} ref={mailRef} placeholder="מייל"></input>
-<button className={styles.button} onClick={submitHandler}>אופק, אני מחכה לשיחה</button>
-</div>
-</form>
-
-</>
-
-}
-export default FormScreen
+export default FormScreen;

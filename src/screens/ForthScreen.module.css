@@ -12,20 +12,18 @@ align-items: center;
 .title{
     font-size:3.5rem;
     direction: rtl;
-    width:60%;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-    color:black;
-    justify-content: center;
-    text-align: right;
+    color:rgb(66, 13, 116);
+    text-align: center;
     margin:2% auto ;
-    font-family: "Assistant";
-    font-weight: bold;
+    font-family: "Dragon";
+  
 }
+
 .subTitle{
   font-size:1.5rem;
   direction: rtl;
   width:60%;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  
   color:black;
   justify-content: center;
   text-align: right;
@@ -70,22 +68,19 @@ justify-content: space-evenly;
       object-fit: contain;
   }
   .title{
-      font-size:1.8rem;
-      direction: rtl;
-      width:100%;
-      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-      color:black;
-      justify-content: center;
-      text-align: center;
-      margin:2% auto ;
-      font-family: "Assistant";
-      font-weight: bold;
-  }
+    font-size:1.8rem;
+    direction: rtl;
+    color:rgb(66, 13, 116);
+    text-align: center;
+    margin:2% auto ;
+    font-family: "Dragon";
+  
+}
   .subTitle{
     font-size:1.2rem;
     direction: rtl;
     width:100%;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    
     color:black;
     justify-content: center;
     text-align: center;
@@ -97,7 +92,7 @@ justify-content: space-evenly;
   
       direction: rtl;
       font-family: "AssistantR";
-      font-size:1rem;
+      font-size:1.1rem;
       margin:2% auto;
       width:100%;
       text-align: center;
@@ -130,22 +125,19 @@ justify-content: space-evenly;
       object-fit: contain;
   }
   .title{
-      font-size:2rem;
-      direction: rtl;
-      width:100%;
-      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-      color:black;
-      justify-content: center;
-      text-align: center;
-      margin:2% auto ;
-      font-family: "Assistant";
-      font-weight: bold;
-  }
+    font-size:2rem;
+    direction: rtl;
+    color:rgb(66, 13, 116);
+    text-align: center;
+    margin:2% auto ;
+    font-family: "Dragon";
+  
+}
   .subTitle{
     font-size:1.4rem;
     direction: rtl;
     width:100%;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    
     color:black;
     justify-content: center;
     text-align: center;
@@ -157,7 +149,7 @@ justify-content: space-evenly;
   
       direction: rtl;
       font-family: "AssistantR";
-      font-size:1.1rem;
+      font-size:1.2rem;
       margin:2% auto ;
       width:100%;
       text-align: center;
@@ -190,22 +182,19 @@ justify-content: space-evenly;
       object-fit: contain;
   }
   .title{
-      font-size:2.2rem;
-      direction: rtl;
-      width:100%;
-      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-      color:black;
-      justify-content: center;
-      text-align: center;
-      margin:2% auto ;
-      font-family: "Assistant";
-      font-weight: bold;
-  }
+    font-size:2.2rem;
+    direction: rtl;
+    color:rgb(66, 13, 116);
+    text-align: center;
+    margin:2% auto ;
+    font-family: "Dragon";
+  
+}
   .subTitle{
     font-size:1.5rem;
     direction: rtl;
     width:100%;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    
     color:black;
     justify-content: center;
     text-align: center;
@@ -250,22 +239,19 @@ justify-content: space-evenly;
       object-fit: contain;
   }
   .title{
-      font-size:2.2rem;
-      direction: rtl;
-      width:100%;
-      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-      color:black;
-      justify-content: center;
-      text-align: center;
-      margin:2% auto ;
-      font-family: "Assistant";
-      font-weight: bold;
-  }
+    font-size:2.4rem;
+    direction: rtl;
+    color:rgb(66, 13, 116);
+    text-align: center;
+    margin:2% auto ;
+    font-family: "Dragon";
+  
+}
   .subTitle{
     font-size:1.5rem;
     direction: rtl;
     width:100%;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    
     color:black;
     justify-content: center;
     text-align: center;
@@ -310,22 +296,19 @@ justify-content: space-evenly;
       object-fit: contain;
   }
   .title{
-      font-size:2.2rem;
-      direction: rtl;
-      width:100%;
-      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-      color:black;
-      justify-content: center;
-      text-align: center;
-      margin:2% auto ;
-      font-family: "Assistant";
-      font-weight: bold;
-  }
+    font-size:2.7rem;
+    direction: rtl;
+    color:rgb(66, 13, 116);
+    text-align: center;
+    margin:2% auto ;
+    font-family: "Dragon";
+  
+}
   .subTitle{
     font-size:1.5rem;
     direction: rtl;
     width:100%;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    
     color:black;
     justify-content: center;
     text-align: center;
@@ -371,22 +354,19 @@ justify-content: space-evenly;
       object-fit: contain;
   }
   .title{
-      font-size:2.5rem;
-      direction: rtl;
-      width:100%;
-      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-      color:black;
-      justify-content: center;
-      text-align: center;
-      margin:2% auto ;
-      font-family: "Assistant";
-      font-weight: bold;
-  }
+    font-size:3rem;
+    direction: rtl;
+    color:rgb(66, 13, 116);
+    text-align: center;
+    margin:2% auto ;
+    font-family: "Dragon";
+  
+}
   .subTitle{
     font-size:1.5rem;
     direction: rtl;
     width:100%;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    
     color:black;
     justify-content: center;
     text-align: center;
@@ -431,22 +411,19 @@ justify-content: space-evenly;
       object-fit: contain;
   }
   .title{
-      font-size:2.8rem;
-      direction: rtl;
-      width:100%;
-      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-      color:black;
-      justify-content: center;
-      text-align: center;
-      margin:2% auto ;
-      font-family: "Assistant";
-      font-weight: bold;
-  }
+    font-size:3.2rem;
+    direction: rtl;
+    color:rgb(66, 13, 116);
+    text-align: center;
+    margin:2% auto ;
+    font-family: "Dragon";
+  
+}
   .subTitle{
     font-size:1.7rem;
     direction: rtl;
     width:100%;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    
     color:black;
     justify-content: center;
     text-align: center;
@@ -492,22 +469,19 @@ justify-content: space-evenly;
       object-fit: contain;
   }
   .title{
-      font-size:2.5rem;
-      direction: rtl;
-      width:85%;
-      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-      color:black;
-      justify-content: center;
-      text-align: center;
-      margin:2% auto ;
-      font-family: "Assistant";
-      font-weight: bold;
-  }
+    font-size:3.4rem;
+    direction: rtl;
+    color:rgb(66, 13, 116);
+    text-align: center;
+    margin:2% auto ;
+    font-family: "Dragon";
+  
+}
   .subTitle{
     font-size:1.4rem;
     direction: rtl;
     width:95%;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    
     color:black;
     justify-content: center;
     text-align: center;
@@ -551,23 +525,12 @@ justify-content: space-evenly;
       width:100%;
       object-fit: contain;
   }
-  .title{
-      font-size:3.2rem;
-      direction: rtl;
-      width:85%;
-      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-      color:black;
-      justify-content: center;
-      text-align: center;
-      margin:2% auto ;
-      font-family: "Assistant";
-      font-weight: bold;
-  }
+
   .subTitle{
     font-size:1.5rem;
     direction: rtl;
     width:85%;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    
     color:black;
     justify-content: center;
     text-align: center;

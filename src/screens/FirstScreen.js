@@ -30,9 +30,9 @@ useEffect(()=>{
 },[])
 return <>
 
-<div className={!props.scrolled? styles.description: styles.descriptionP}>הסיפור שלכם אינו מגדיר אתכם</div>   
+<div className={!props.scrolled? styles.description: styles.descriptionP}>הסיפור שלך אינו מגדיר אותך</div>   
 <div className={styles.title}>אלא</div>   
-<div className={styles.header}>מי שאתם בוחרים להיות</div>
+<div className={styles.header}>מי שאת בוחרת להיות</div>
   
 </>
 

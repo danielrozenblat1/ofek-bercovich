@@ -1,21 +1,26 @@
 .title{
     direction: rtl;
-    font-family: "Assistant";
+    font-family: "Dragon";
     font-size: 3rem;
     margin:2% auto;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    color:rgb(66, 13, 116);
     text-align: center;
+}
+.underline{
+    display: inline;
+    text-decoration: underline;
 }
 .bold{
     font-family: "Assistant";
+    display: inline;
 }
 .description{
     direction: rtl;
     font-family: "AssistantR";
     font-size: 1.5rem;
-    margin:2% auto;
+    margin:3% auto;
     line-height: 1.5;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    
     text-align: center;
     width:50%;
 }
@@ -45,19 +50,19 @@
 
     .title{
         direction: rtl;
-        font-family: "Assistant";
+        font-family: "Dragon";
         font-size: 2rem;
         margin:2% auto;
-        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+        color:rgb(66, 13, 116); 
         text-align: center;
     }
     .description{
         direction: rtl;
         font-family: "AssistantR";
-        font-size: 1.1rem;
+        font-size: 1.15rem;
         margin:2% auto;
         line-height: 1.5;
-        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+        
         text-align: center;
         width:80%;
     }
@@ -87,19 +92,19 @@
 
     .title{
         direction: rtl;
-        font-family: "Assistant";
+        font-family: "Dragon";
         font-size: 2.3rem;
         margin:2% auto;
-        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+        
         text-align: center;
     }
     .description{
         direction: rtl;
         font-family: "AssistantR";
-        font-size: 1.15rem;
+        font-size: 1.25rem;
         margin:2% auto;
         line-height: 1.5;
-        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+        
         text-align: center;
         width:85%;
     }
@@ -129,19 +134,19 @@
 
     .title{
         direction: rtl;
-        font-family: "Assistant";
+        font-family: "Dragon";
         font-size: 2.5rem;
         margin:2% auto;
-        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+       
         text-align: center;
     }
     .description{
         direction: rtl;
         font-family: "AssistantR";
-        font-size: 1.2rem;
+        font-size: 1.25rem;
         margin:2% auto;
         line-height: 1.5;
-        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+        
         text-align: center;
         width:80%;
     }
@@ -172,19 +177,19 @@
 
     .title{
         direction: rtl;
-        font-family: "Assistant";
+        font-family: "Dragon";
         font-size: 2.7rem;
         margin:2% auto;
-        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+       
         text-align: center;
     }
     .description{
         direction: rtl;
         font-family: "AssistantR";
-        font-size: 1.2rem;
+        font-size: 1.25rem;
         margin:2% auto;
         line-height: 1.5;
-        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+        
         text-align: center;
         width:80%;
     }
@@ -217,19 +222,19 @@
    
     .title{
         direction: rtl;
-        font-family: "Assistant";
+        font-family: "Dragon";
         font-size: 2.7rem;
         margin:2% auto;
-        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+       
         text-align: center;
     }
     .description{
         direction: rtl;
         font-family: "AssistantR";
-        font-size: 1.2rem;
+        font-size: 1.25rem;
         margin:2% auto;
         line-height: 1.5;
-        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+        
         text-align: center;
         width:80%;
     }
@@ -260,19 +265,19 @@
     
     .title{
         direction: rtl;
-        font-family: "Assistant";
+        font-family: "Dragon";
         font-size:3rem;
         margin:2% auto;
-        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+       
         text-align: center;
     }
     .description{
         direction: rtl;
         font-family: "AssistantR";
-        font-size: 1.25rem;
+        font-size: 1.35rem;
         margin:2% auto;
         line-height: 1.5;
-        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+        
         text-align: center;
         width:70%;
     }
@@ -303,10 +308,10 @@
 
     .title{
         direction: rtl;
-        font-family: "Assistant";
+        font-family: "Dragon";
         font-size:3.2rem;
         margin:2% auto;
-        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+       
         text-align: center;
     }
     .description{
@@ -315,7 +320,7 @@
         font-size: 1.4rem;
         margin:2% auto;
         line-height: 1.5;
-        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+        
         text-align: center;
         width:60%;
     }

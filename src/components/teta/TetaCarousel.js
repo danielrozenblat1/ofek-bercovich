@@ -1,7 +1,7 @@
 import styles from "../../screens/SecondScreen.module.css"
-import result1 from "../../images/אופק ברקוביץ המלצות קורסים.png"
+import result1 from "../../images/אופק ברקוביץ המלצות קורסים 1.png"
 import result2 from "../../images/אופק ברקוביץ המלצות קורסים 2.png"
-import result3 from "../../images/אופק ברקוביץ המלצות קורסים 3.png"
+
 import result4 from "../../images/אופק ברקוביץ המלצות קורסים 4.png"
 import result5 from "../../images/אופק ברקוביץ המלצות קורסים 5.png"
 import result6 from "../../images/אופק ברקוביץ המלצות קורסים 6.png"
@@ -40,10 +40,7 @@ const TetaCarousel=()=>{
             type: 'image',
             src: result2,
           },
-          {
-            type: 'image',
-            src: result3,
-          },  
+      
           {
             type: 'image',
             src: result4,
@@ -74,8 +71,8 @@ const TetaCarousel=()=>{
    
     return <>
     <div className={styles.background} id="לקוחות סשנים">
-<div className={styles.title}>תשמעו קצת ממי שעבר דרכי..</div>
-<div className={styles.description}>מוזמנים להחליק ולהתרשם</div>
+
+<div className={styles.description}>מוזמנות להחליק ולהתרשם</div>
 <div className={styles.sliderContainer}>
         <Slider {...sliderSettings}>
           {content.map((item, index) => (

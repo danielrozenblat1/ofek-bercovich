@@ -7,7 +7,7 @@
     border: none;
     margin: 4% auto;
     border-radius: 8px;
-    background:  linear-gradient(to right, rgba(153, 29, 153, 0.577), lightblue);
+     background: linear-gradient(270deg, #d8b9f2 0%, #b3e5fc 100%);
     box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.1), 0 0 8px 1px #888888;
     transition: all 0.3s ease-in-out;
     padding: 0 15px;
@@ -24,6 +24,23 @@
   .input::placeholder {
     color: #999;
   }
+  .checkboxContainer {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    direction: rtl;
+  }
+  
+  .checkboxContainer input[type="checkbox"] {
+    margin-left: 10px;
+  }
+  
+  .checkboxContainer label {
+    font-size: 0.95rem;
+    color: #000000;
+    font-family: "Assistant";
+  }
+  
 
   .button {
     font-family: "AssistantR";
@@ -35,7 +52,7 @@
     cursor: pointer;
     margin: 3% auto;
     border-radius: 8px;
-    background:  linear-gradient(to right, rgba(153, 29, 153, 0.577), lightblue);
+     background: linear-gradient(270deg, #d8b9f2 0%, #b3e5fc 100%);
     box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.1), 0 0 8px 1px #888888;
     transition: all 0.5s ease-in-out;
     
@@ -48,14 +65,15 @@ transform: scale(1.1);
   }
   .button:focus {
     box-shadow: 0 0 0 7px 1px rgba(105, 105, 105, 0.3);
-    background: linear-gradient(to right, #763ad74a, #87dbf551);
+    background: linear-gradient(to right, #50139a65, #fffbaf90);
   }
 .title{
-    font-family: "Assistant";
+    font-family: "Dragon";
     font-size: 3rem;
     width:60%;
     text-align: center;
 direction: rtl;
+color:rgb(66, 13, 116);
 text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 margin:0 auto;
 }
@@ -96,7 +114,7 @@ margin:2% auto;
     border: none;
     margin: 4% auto;
     border-radius: 8px;
-    background:  linear-gradient(to right, rgba(153, 29, 153, 0.577), lightblue);
+     background: linear-gradient(270deg, #d8b9f2 0%, #b3e5fc 100%);
     box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.1), 0 0 8px 1px #888888;
     transition: all 0.3s ease-in-out;
     padding: 0 15px;
@@ -106,7 +124,7 @@ margin:2% auto;
   
   .input:focus {
     box-shadow: 0 0 0 7px 1px rgba(105, 105, 105, 0.3);
-    background:  linear-gradient(to right, rgba(153, 29, 153, 0.577), lightblue);;
+     background: linear-gradient(to right, #50139a65, #fffbaf90);
   }
 
   
@@ -124,7 +142,7 @@ margin:2% auto;
     cursor: pointer;
     margin: 3% auto;
     border-radius: 8px;
-    background:  linear-gradient(to right, rgba(153, 29, 153, 0.577), lightblue);
+     background: linear-gradient(270deg, #d8b9f2 0%, #b3e5fc 100%);
     box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.1), 0 0 8px 1px #888888;
     transition: all 0.5s ease-in-out;
     
@@ -137,10 +155,10 @@ transform: scale(1.1);
   }
   .button:focus {
     box-shadow: 0 0 0 7px 1px rgba(105, 105, 105, 0.3);
-    background:  linear-gradient(to right, rgba(153, 29, 153, 0.577), lightblue);
+    background: linear-gradient(to right, #50139a65, #fffbaf90);
   }
 .title{
-    font-family: "Assistant";
+    font-family: "Dragon";
     font-size: 1.5rem;
     text-align: center;
 direction: rtl;
@@ -186,7 +204,7 @@ margin:2% auto;
     border: none;
     margin: 4% auto;
     border-radius: 8px;
-    background:  linear-gradient(to right, rgba(153, 29, 153, 0.577), lightblue);
+     background: linear-gradient(270deg, #d8b9f2 0%, #b3e5fc 100%);
     box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.1), 0 0 8px 1px #888888;
     transition: all 0.3s ease-in-out;
     padding: 0 15px;
@@ -196,7 +214,7 @@ margin:2% auto;
   
   .input:focus {
     box-shadow: 0 0 0 7px 1px rgba(105, 105, 105, 0.3);
-    background:  linear-gradient(to right, rgba(153, 29, 153, 0.577), lightblue);;
+     background: linear-gradient(to right, #50139a65, #fffbaf90);
   }
 
   
@@ -214,7 +232,7 @@ margin:2% auto;
     cursor: pointer;
     margin: 3% auto;
     border-radius: 8px;
-    background:  linear-gradient(to right, rgba(153, 29, 153, 0.577), lightblue);
+     background: linear-gradient(270deg, #d8b9f2 0%, #b3e5fc 100%);
     box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.1), 0 0 8px 1px #888888;
     transition: all 0.5s ease-in-out;
     
@@ -227,10 +245,10 @@ transform: scale(1.1);
   }
   .button:focus {
     box-shadow: 0 0 0 7px 1px rgba(105, 105, 105, 0.3);
-    background:  linear-gradient(to right, rgba(153, 29, 153, 0.577), lightblue);
+    background: linear-gradient(to right, #50139a65, #fffbaf90);
   }
 .title{
-    font-family: "Assistant";
+    font-family: "Dragon";
     font-size: 1.5rem;
     text-align: center;
 direction: rtl;
@@ -275,7 +293,7 @@ margin:2% auto;
     border: none;
     margin: 4% auto;
     border-radius: 8px;
-    background:  linear-gradient(to right, rgba(153, 29, 153, 0.577), lightblue);
+     background: linear-gradient(270deg, #d8b9f2 0%, #b3e5fc 100%);
     box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.1), 0 0 8px 1px #888888;
     transition: all 0.3s ease-in-out;
     padding: 0 15px;
@@ -285,7 +303,7 @@ margin:2% auto;
   
   .input:focus {
     box-shadow: 0 0 0 7px 1px rgba(105, 105, 105, 0.3);
-    background:  linear-gradient(to right, rgba(153, 29, 153, 0.577), lightblue);;
+     background: linear-gradient(to right, #50139a65, #fffbaf90);
   }
 
   
@@ -303,7 +321,7 @@ margin:2% auto;
     cursor: pointer;
     margin: 3% auto;
     border-radius: 8px;
-    background:  linear-gradient(to right, rgba(153, 29, 153, 0.577), lightblue);
+     background: linear-gradient(270deg, #d8b9f2 0%, #b3e5fc 100%);
     box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.1), 0 0 8px 1px #888888;
     transition: all 0.5s ease-in-out;
     
@@ -316,10 +334,10 @@ transform: scale(1.1);
   }
   .button:focus {
     box-shadow: 0 0 0 7px 1px rgba(105, 105, 105, 0.3);
-    background:  linear-gradient(to right, rgba(153, 29, 153, 0.577), lightblue);
+    background: linear-gradient(to right, #50139a65, #fffbaf90);
   }
 .title{
-    font-family: "Assistant";
+    font-family: "Dragon";
     font-size: 1.8rem;
     text-align: center;
 direction: rtl;
@@ -364,7 +382,7 @@ margin:2% auto;
     border: none;
     margin: 4% auto;
     border-radius: 8px;
-    background:  linear-gradient(to right, rgba(153, 29, 153, 0.577), lightblue);
+     background: linear-gradient(270deg, #d8b9f2 0%, #b3e5fc 100%);
     box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.1), 0 0 8px 1px #888888;
     transition: all 0.3s ease-in-out;
     padding: 0 15px;
@@ -374,7 +392,7 @@ margin:2% auto;
   
   .input:focus {
     box-shadow: 0 0 0 7px 1px rgba(105, 105, 105, 0.3);
-    background:  linear-gradient(to right, rgba(153, 29, 153, 0.577), lightblue);;
+     background: linear-gradient(to right, #50139a65, #fffbaf90);
   }
 
   
@@ -392,7 +410,7 @@ margin:2% auto;
     cursor: pointer;
     margin: 3% auto;
     border-radius: 8px;
-    background:  linear-gradient(to right, rgba(153, 29, 153, 0.577), lightblue);
+     background: linear-gradient(270deg, #d8b9f2 0%, #b3e5fc 100%);
     box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.1), 0 0 8px 1px #888888;
     transition: all 0.5s ease-in-out;
     
@@ -405,10 +423,10 @@ transform: scale(1.1);
   }
   .button:focus {
     box-shadow: 0 0 0 7px 1px rgba(105, 105, 105, 0.3);
-    background:  linear-gradient(to right, rgba(153, 29, 153, 0.577), lightblue);
+    background: linear-gradient(to right, #50139a65, #fffbaf90);
   }
 .title{
-    font-family: "Assistant";
+    font-family: "Dragon";
     font-size: 2rem;
     text-align: center;
 direction: rtl;
@@ -453,7 +471,7 @@ margin:2% auto;
     border: none;
     margin: 4% auto;
     border-radius: 8px;
-    background:  linear-gradient(to right, rgba(153, 29, 153, 0.577), lightblue);
+     background: linear-gradient(270deg, #d8b9f2 0%, #b3e5fc 100%);
     box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.1), 0 0 8px 1px #888888;
     transition: all 0.3s ease-in-out;
     padding: 0 15px;
@@ -463,7 +481,7 @@ margin:2% auto;
   
   .input:focus {
     box-shadow: 0 0 0 7px 1px rgba(105, 105, 105, 0.3);
-    background:  linear-gradient(to right, rgba(153, 29, 153, 0.577), lightblue);;
+     background: linear-gradient(to right, #50139a65, #fffbaf90);
   }
 
   
@@ -481,7 +499,7 @@ margin:2% auto;
     cursor: pointer;
     margin: 3% auto;
     border-radius: 8px;
-    background:  linear-gradient(to right, rgba(153, 29, 153, 0.577), lightblue);
+     background: linear-gradient(270deg, #d8b9f2 0%, #b3e5fc 100%);
     box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.1), 0 0 8px 1px #888888;
     transition: all 0.5s ease-in-out;
     
@@ -494,10 +512,10 @@ transform: scale(1.1);
   }
   .button:focus {
     box-shadow: 0 0 0 7px 1px rgba(105, 105, 105, 0.3);
-    background:  linear-gradient(to right, rgba(153, 29, 153, 0.577), lightblue);
+     background: linear-gradient(270deg, #d8b9f2 0%, #b3e5fc 100%);
   }
 .title{
-    font-family: "Assistant";
+    font-family: "Dragon";
     font-size: 2.2rem;
     text-align: center;
 direction: rtl;
@@ -542,7 +560,7 @@ margin:2% auto;
     border: none;
     margin: 4% auto;
     border-radius: 8px;
-    background:  linear-gradient(to right, rgba(153, 29, 153, 0.577), lightblue);
+     background: linear-gradient(270deg, #d8b9f2 0%, #b3e5fc 100%);
     box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.1), 0 0 8px 1px #888888;
     transition: all 0.3s ease-in-out;
     padding: 0 15px;
@@ -552,7 +570,7 @@ margin:2% auto;
   
   .input:focus {
     box-shadow: 0 0 0 7px 1px rgba(105, 105, 105, 0.3);
-    background:  linear-gradient(to right, rgba(153, 29, 153, 0.577), lightblue);;
+     background: linear-gradient(to right, #50139a65, #fffbaf90);
   }
 
   
@@ -570,7 +588,7 @@ margin:2% auto;
     cursor: pointer;
     margin: 3% auto;
     border-radius: 8px;
-    background:  linear-gradient(to right, rgba(153, 29, 153, 0.577), lightblue);
+     background: linear-gradient(270deg, #d8b9f2 0%, #b3e5fc 100%);
     box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.1), 0 0 8px 1px #888888;
     transition: all 0.5s ease-in-out;
     
@@ -583,10 +601,10 @@ transform: scale(1.1);
   }
   .button:focus {
     box-shadow: 0 0 0 7px 1px rgba(105, 105, 105, 0.3);
-    background:  linear-gradient(to right, rgba(153, 29, 153, 0.577), lightblue);
+    background: linear-gradient(to right, #50139a65, #fffbaf90);
   }
 .title{
-    font-family: "Assistant";
+    font-family: "Dragon";
     font-size: 2.6rem;
     text-align: center;
 direction: rtl;
