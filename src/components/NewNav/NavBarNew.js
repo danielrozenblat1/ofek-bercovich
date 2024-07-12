@@ -108,10 +108,11 @@ const NavBarNew = () => {
           <img src={logo} alt="Logo" />
         </div>}
       
-      <div className={styles.socialIcons}>
-      <a href="https://www.instagram.com/tomer__nails/" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
+   {window.innerWidth>330 &&   <div className={styles.socialIcons}>
+      <a href="https://www.instagram.com/ofek_bercovich/" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
+      <a href="https://www.facebook.com/profile.php?id=61551928285487" target="_blank" rel="noopener noreferrer"><FaFacebook/></a>
         <a onClick={handleClick} ><FaWhatsapp /></a>
-      </div>
+      </div>}
     </nav>
   );
 };
