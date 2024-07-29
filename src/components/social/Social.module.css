@@ -88,14 +88,14 @@
   }
   .iconContent a[data-social="tiktok"] .filled,
   .iconContent a[data-social="tiktok"] ~ .tooltip {
-    background-color: #b91db1;
+    background: linear-gradient(180deg, #00f2ea 0%, #ff0050 100%);
   }
   .iconContent a[data-social="facebook"] .filled,
   .iconContent a[data-social="facebook"] ~ .tooltip {
-    background-color: #1d1db9;
+    background-color: #2b67b6;
   }
   .iconContent a[data-social="instagram"] .filled,
   .iconContent a[data-social="instagram"] ~ .tooltip {
-    background-color: #d17c46;
+    background: radial-gradient(circle at 30% 30%, #fdf497, #fdf497 20%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
   }
   

@@ -26,7 +26,7 @@ const TetaCarousel=()=>{
         speed: 500,
         autoplay: true, // Enable autoplay
         autoplaySpeed: 2500,
-        slidesToShow: window.innerWidth <650 ? 1 : window.innerWidth < 850 ? 2 :window.innerWidth < 1250 ? 3: 4,
+        slidesToShow: window.innerWidth <550 ? 1 : window.innerWidth < 850 ? 2 :window.innerWidth < 1250 ? 3: 4,
         slidesToScroll:1,
   
       };

@@ -57,6 +57,7 @@ function App() {
   <FifthScreen/>
   <Teta/>
   <ForthScreen/>
+  <SocialIcons/>
 <ByMe/>
   </div>
   </>

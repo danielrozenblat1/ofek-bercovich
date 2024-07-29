@@ -22,6 +22,17 @@ import result20 from "../images/אופק ברקוביץ המלצות סשנים 
 import result21 from "../images/אופק ברקוביץ המלצות סשנים 21.png"
 import result22 from "../images/אופק ברקוביץ המלצות סשנים 22.png"
 
+import result23 from "../images/אופק ברקוביץ המלצות קורסים 1.png"
+import result24 from "../images/אופק ברקוביץ המלצות קורסים 2.png"
+
+import result25 from "../images/אופק ברקוביץ המלצות קורסים 4.png"
+import result26 from "../images/אופק ברקוביץ המלצות קורסים 5.png"
+import result27 from "../images/אופק ברקוביץ המלצות קורסים 6.png"
+import result28 from "../images/אופק ברקוביץ המלצות קורסים 7.png"
+import result29 from "../images/אופק ברקוביץ המלצות קורסים 8.png"
+import result30 from "../images/אופק ברקוביץ המלצות קורסים 9.png"
+
+
 
 
 import 'slick-carousel/slick/slick.css';
@@ -38,8 +49,10 @@ const SecondScreen=()=>{
         speed: 500,
         autoplay: true, // Enable autoplay
         autoplaySpeed: 2500,
-        slidesToShow: window.innerWidth <650 ? 1 : window.innerWidth < 850 ? 2 :window.innerWidth < 1250 ? 3: 4,
+        slidesToShow: window.innerWidth <550 ? 1 : window.innerWidth < 850 ? 2 :window.innerWidth < 1250 ? 3: 4,
         slidesToScroll:1,
+       
+      
   
       };
    
@@ -131,14 +144,45 @@ const SecondScreen=()=>{
             type: 'image',
             src: result22,
           },
-
+          {
+            type: 'image',
+            src: result23,
+          },
+          {
+            type: 'image',
+            src: result24,
+          },
+          {
+            type: 'image',
+            src: result25,
+          },
+          {
+            type: 'image',
+            src: result26,
+          },
+          {
+            type: 'image',
+            src: result27,
+          },
+          {
+            type: 'image',
+            src: result28,
+          },
+          {
+            type: 'image',
+            src: result29,
+          },
+          {
+            type: 'image',
+            src: result30,
+          },
     ];
     
    
     return <>
     <div className={styles.background} id="המלצות">
-<div className={styles.title}>תשמעו קצת ממי שעבר דרכי..</div>
-<div className={styles.description}>מוזמנים להחליק ולהתרשם</div>
+<div className={styles.title}>המלצות</div>
+
 <div className={styles.sliderContainer}>
         <Slider {...sliderSettings}>
           {content.map((item, index) => (

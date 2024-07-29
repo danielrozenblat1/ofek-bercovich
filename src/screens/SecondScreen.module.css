@@ -33,11 +33,11 @@
     direction: rtl;
     width:65%;
     
-    color:black;
+        color:rgb(66, 13, 116);
     justify-content: center;
     text-align: center;
     margin:2% auto;
-    font-family: "Assistant";
+    font-family: "Fredoka";
     font-weight: bold;
 }
 .description{
@@ -45,7 +45,7 @@
     direction: rtl;
     width:65%;
     
-    color:black;
+        color:rgb(66, 13, 116);
     justify-content: center;
     text-align: center;
     margin:2% auto;
@@ -56,7 +56,7 @@
     font-size: 25px;
     direction: rtl;
     width:65%;
-    color:black;
+        color:rgb(66, 13, 116);
     justify-content: center;
     text-align: center;
     margin: 2% auto;
@@ -110,19 +110,19 @@ height: auto;
         font-size: 2rem;
         direction: rtl;
         width:85%;
-        color:black;
+            color:rgb(66, 13, 116);
       
         justify-content: center;
         text-align: center;
         margin:3% auto;
-        font-family: "Assistant";
+        font-family: "Fredoka";
         font-weight: bold;
     }
     .explain{
         font-size: 18px;
         direction: rtl;
         width:90%;
-        color:black;
+            color:rgb(66, 13, 116);
         justify-content: center;
         text-align: center;
         margin: 5% auto;
@@ -175,18 +175,18 @@ height: auto;
         font-size: 2.4rem;
         direction: rtl;
         width:75%;
-        color:black;
+            color:rgb(66, 13, 116);
         justify-content: center;
         text-align: center;
         margin:2% auto;
-        font-family: "Assistant";
+        font-family: "Fredoka";
         font-weight: bold;
     }
     .explain{
         font-size: 20px;
         direction: rtl;
         width:90%;
-        color:black;
+            color:rgb(66, 13, 116);
         justify-content: center;
         text-align: center;
         margin: 5% auto;
@@ -238,18 +238,18 @@ height: auto;
         font-size: 2.8rem;
         direction: rtl;
         width:75%;
-        color:black;
+            color:rgb(66, 13, 116);
         justify-content: center;
         text-align: center;
         margin:2% auto;
-        font-family: "Assistant";
+        font-family: "Fredoka";
         font-weight: bold;
     }
     .explain{
         font-size: 20px;
         direction: rtl;
         width:90%;
-        color:black;
+            color:rgb(66, 13, 116);
         justify-content: center;
         text-align: center;
         margin: 5% auto;
@@ -268,7 +268,7 @@ height: auto;
 
     .sliderContainer {
 
-        width: 65%;
+        width: 75%;
         margin: auto;
     
         justify-content: center;
@@ -301,18 +301,18 @@ height: auto;
         font-size:2.6rem;
         direction: rtl;
         width:85%;
-        color:black;
+            color:rgb(66, 13, 116);
         justify-content: center;
         text-align: center;
         margin:2% auto;
-        font-family: "Assistant";
+        font-family: "Fredoka";
         font-weight: bold;
     }
     .explain{
         font-size: 22px;
         direction: rtl;
         width:80%;
-        color:black;
+            color:rgb(66, 13, 116);
         justify-content: center;
         text-align: center;
         margin: 5% auto;
@@ -331,7 +331,7 @@ height: auto;
 
     .sliderContainer {
 
-        width: 90%;
+        width: 80%;
         margin: auto;
     
         justify-content: center;
@@ -364,18 +364,18 @@ height: auto;
         font-size: 2.8rem;
         direction: rtl;
         width:75%;
-        color:black;
+            color:rgb(66, 13, 116);
         justify-content: center;
         text-align: center;
         margin:2% auto;
-        font-family: "Assistant";
+        font-family: "Fredoka";
         font-weight: bold;
     }
     .explain{
         font-size: 22px;
         direction: rtl;
         width:80%;
-        color:black;
+            color:rgb(66, 13, 116);
         justify-content: center;
         text-align: center;
         margin: 5% auto;
@@ -427,18 +427,18 @@ height: auto;
         font-size: 3.2rem;
         direction: rtl;
         width:75%;
-        color:black;
+            color:rgb(66, 13, 116);
         justify-content: center;
         text-align: center;
         margin:2% auto;
-        font-family: "Assistant";
+        font-family: "Fredoka";
         font-weight: bold;
     }
     .explain{
         font-size: 22px;
         direction: rtl;
         width:80%;
-        color:black;
+            color:rgb(66, 13, 116);
         justify-content: center;
         text-align: center;
         margin: 5% auto;
@@ -490,18 +490,18 @@ height: auto;
         font-size:3rem;
         direction: rtl;
         width:85%;
-        color:black;
+            color:rgb(66, 13, 116);
         justify-content: center;
         text-align: center;
         margin:2% auto;
-        font-family: "Assistant";
+        font-family: "Fredoka";
         font-weight: bold;
     }
     .explain{
         font-size: 22px;
         direction: rtl;
         width:80%;
-        color:black;
+            color:rgb(66, 13, 116);
         justify-content: center;
         text-align: center;
         margin: 5% auto;
@@ -553,18 +553,18 @@ height: auto;
         font-size: 3.1rem;
         direction: rtl;
         width:75%;
-        color:black;
+            color:rgb(66, 13, 116);
         justify-content: center;
         text-align: center;
         margin:2% auto;
-        font-family: "Assistant";
+        font-family: "Fredoka";
         font-weight: bold;
     }
     .explain{
         font-size: 22px;
         direction: rtl;
         width:80%;
-        color:black;
+            color:rgb(66, 13, 116);
         justify-content: center;
         text-align: center;
         margin: 5% auto;
@@ -616,18 +616,18 @@ height: auto;
         font-size: 3.2rem;
         direction: rtl;
         width:75%;
-        color:black;
+            color:rgb(66, 13, 116);
         justify-content: center;
         text-align: center;
         margin:2% auto;
-        font-family: "Assistant";
+        font-family: "Fredoka";
         font-weight: bold;
     }
     .explain{
         font-size: 22px;
         direction: rtl;
         width:75%;
-        color:black;
+            color:rgb(66, 13, 116);
         justify-content: center;
         text-align: center;
         margin: 3% auto;

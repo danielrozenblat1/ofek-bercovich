@@ -56,7 +56,7 @@ const NavBarNew = () => {
 
   const closeMenu = () => setIsMenuOpen(false);
 
-  const menuItems = ['תטא הילינג', 'המלצות', 'צרו קשר' ];
+  const menuItems = ['תכנית ליווי','תטא הילינג', 'קצת עלי','המלצות', 'צרו קשר' ];
 
   return (
     <nav className={`${styles.navbar} ${isSticky ? styles.sticky : ''}`}>
@@ -84,7 +84,7 @@ const NavBarNew = () => {
               {item}
             </ScrollLink>
           ))}
-            <div classsName={styles.center}><img className={styles.image} src={logo} alt="גל יאקובצאק לוגו"/></div>
+            <div classsName={styles.center}><img className={styles.image} src={logo} alt="אופק ברקוביץ לוגו"/></div>
         </div>
       )}
       {windowWidth > 850 && (

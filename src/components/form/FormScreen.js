@@ -15,7 +15,7 @@ const FormScreen = () => {
     const name = nameRef.current.value;
     const phone = phoneRef.current.value;
     const email = emailRef.current.value;
-    const reason = reasonRef.current.value;
+
     const agree = agreeRef.current.checked;
 
     if (name.trim().length <= 2) {
@@ -39,7 +39,7 @@ const FormScreen = () => {
       name: name,
       phone: phone,
       email: email,
-      reason: reason,
+    
       reciver: reciver,
     };
 
@@ -62,21 +62,17 @@ const FormScreen = () => {
   return (
     <>
       <div className={styles.title} id="צרו קשר">
-        לשיחת התאמה ללא עלות, השאירי פרטים
+      מלאי פרטים ואחזור אליך בהקדם
       </div>
       <form className={styles.form}>
         <div className={styles.column}>
           <input className={styles.input} ref={nameRef} placeholder="שם מלא" />
           <input className={styles.input} ref={phoneRef} placeholder="מספר טלפון" />
           <input className={styles.input} ref={emailRef} placeholder="מייל" />
-          <select ref={reasonRef} className={styles.input}>
-            <option value="תכנית ליווי">תכנית ליווי</option>
-            <option value="טיפולי תטא הילינג">טיפולי תטא הילינג</option>
-            <option value="קורסי תטא הילינג">קורסי תטא הילינג</option>
-          </select>
+    
           <label className={styles.checkboxContainer}>
             <input type="checkbox" ref={agreeRef} />
-            אני מאשר/ת לקבל דואר במייל
+            מאשרת קבלת דיוור במייל
           </label>
           <button className={styles.button} onClick={submitHandler}>
             אופק, אני מחכה לשיחה

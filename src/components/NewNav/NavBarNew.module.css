@@ -43,9 +43,10 @@ background:whitesmoke;
     position: absolute;
     left: 50%;
     top: 50%;
-    
+
     transform: translate(-50%, -50%);
   }
+ 
   
   .logo img {
     height: 9vh;
@@ -105,6 +106,7 @@ background:whitesmoke;
     top: 0;
     right: 0;
     width: 100%;
+    
     height: 100vh;
     background: linear-gradient(162deg, rgba(255,255,227,1) 0%, rgba(255,255,227,1) 20%, rgba(180,214,236,1) 50%, rgba(221,175,255,1) 70%, rgba(227,255,252,1) 100%);
     z-index: 1000;
@@ -121,8 +123,8 @@ background:whitesmoke;
   .mobileMenu a {
     color: black; /* Changed to white */
     text-decoration: none;
-    font-size: 1.5rem;
-    font-family: "AssistantR";
+    font-size: 1.4rem;
+    font-family: "Assistant";
     cursor: pointer;
   }
   .center{
@@ -147,5 +149,10 @@ background:whitesmoke;
   @media (max-width: 850px) {
     .menuItems {
       display: none;
+    }
+    .image{
+      width:150px;
+      object-fit: contain;
+      margin:10px auto;
     }
   }

@@ -13,11 +13,11 @@ const ThirdScreen=()=>{
 return <>
 {/* <div className={styles.title}>אז איך זה עובד ?</div>    */}
 <div className={styles.row}>
-<Box to="תכנית ליווי" icon={check} title="תכנית ליווי קבוצתית" description="הזוגיות שלך בדרך... והכל בסדר איתך!" little="לנשים בגילאי +30"/>
+<Box to="תכנית ליווי" icon={check} title="תכנית ליווי קבוצתית" descriptionN="הזוגיות שלך בדרך... והכל בסדר איתך!" little="לנשים בגילאי 30+"/>
 <Box  to="תטא הילינג"  icon={check} title="תטא הילינג" description="סשנים 1:1 | קורסים" />
 </div>
 
-<Button text="לחצי כאן לסילבוס המלא"/>
+
 </>
 
 

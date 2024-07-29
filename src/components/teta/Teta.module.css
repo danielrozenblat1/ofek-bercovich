@@ -9,7 +9,7 @@
     direction: rtl;
     font-family: "Assistant";
     font-size: 3rem;
- 
+    color:rgb(66, 13, 116);
     margin:2% auto;
     text-align: center;
   }
@@ -19,6 +19,7 @@
     font-family: "AssistantR";
     font-size: 1.4rem;
     width:40%;
+    line-height: 1.4;
     margin:3% auto;
     text-align: center;
   }
@@ -69,7 +70,7 @@
       font-family: "AssistantR";
       font-size: 1.2rem;
       width:90%;
-      margin:2% auto;
+      margin:3.5% auto;
       text-align: center;
     }
 

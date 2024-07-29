@@ -19,7 +19,18 @@ useEffect(()=>{
       ScrollReveal().reveal(`.${styles.title}`, {
         duration: 600,
         distance: "60px",
-        origin: "bottom",
+        origin: "top",
+        easing: "ease-out",
+        reset: false,
+        viewFactor: 0.2,
+        interval: 200,
+        delay: 100,
+        scale: 1,
+      });
+      ScrollReveal().reveal(`.${styles.header}`, {
+        duration: 600,
+        distance: "60px",
+        origin: "top",
         easing: "ease-out",
         reset: false,
         viewFactor: 0.2,

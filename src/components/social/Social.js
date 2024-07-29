@@ -19,7 +19,7 @@ const SocialIcons = () => {
           <FontAwesomeIcon icon={faTiktok} />
           </svg>
         </a>
-        <div className={styles.tooltip}>טיקטוק</div>
+     
       </li>
  
       <li className={styles.iconContent}>
@@ -35,7 +35,7 @@ const SocialIcons = () => {
           <FontAwesomeIcon icon={faFacebook} />
           </svg>
         </a>
-        <div className={styles.tooltip}>פייסבוק</div>
+   
       </li>
  
       <li className={styles.iconContent}>
@@ -51,7 +51,7 @@ const SocialIcons = () => {
           <FontAwesomeIcon icon={faInstagram} />
           </svg>
         </a>
-        <div className={styles.tooltip}>אינסטגרם</div>
+  
       </li>
  
     </ul>

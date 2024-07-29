@@ -1,6 +1,6 @@
 .title{
     direction: rtl;
-    font-family: "Dragon";
+    font-family: "Fredoka";
     font-size: 3rem;
     margin:2% auto;
     color:rgb(66, 13, 116);
@@ -13,13 +13,15 @@
 .bold{
     font-family: "Assistant";
     display: inline;
+    
 }
+
 .description{
     direction: rtl;
     font-family: "AssistantR";
     font-size: 1.5rem;
-    margin:3% auto;
-    line-height: 1.5;
+    margin:2% auto;
+    line-height: 1.8;
     
     text-align: center;
     width:50%;
@@ -50,7 +52,7 @@
 
     .title{
         direction: rtl;
-        font-family: "Dragon";
+        font-family: "Fredoka";
         font-size: 2rem;
         margin:2% auto;
         color:rgb(66, 13, 116); 
@@ -60,7 +62,7 @@
         direction: rtl;
         font-family: "AssistantR";
         font-size: 1.15rem;
-        margin:2% auto;
+        margin:2.5% auto;
         line-height: 1.5;
         
         text-align: center;
@@ -71,9 +73,8 @@
     
         display: flex;
         justify-content: center;
-        margin:2% auto;
+        margin:2.5% auto;
         width:85%;
-    
     }
     .image{
         width:100%;
@@ -92,9 +93,9 @@
 
     .title{
         direction: rtl;
-        font-family: "Dragon";
+        font-family: "Fredoka";
         font-size: 2.3rem;
-        margin:2% auto;
+        margin:3.5% auto;
         
         text-align: center;
     }
@@ -102,8 +103,8 @@
         direction: rtl;
         font-family: "AssistantR";
         font-size: 1.25rem;
-        margin:2% auto;
-        line-height: 1.5;
+        margin:2.5% auto;
+        line-height: 1.7;
         
         text-align: center;
         width:85%;
@@ -134,9 +135,9 @@
 
     .title{
         direction: rtl;
-        font-family: "Dragon";
+        font-family: "Fredoka";
         font-size: 2.5rem;
-        margin:2% auto;
+        margin:2.5% auto;
        
         text-align: center;
     }
@@ -144,7 +145,7 @@
         direction: rtl;
         font-family: "AssistantR";
         font-size: 1.25rem;
-        margin:2% auto;
+        margin:2.5% auto;
         line-height: 1.5;
         
         text-align: center;
@@ -155,7 +156,7 @@
     
         display: flex;
         justify-content: center;
-        margin:2% auto;
+        margin:2.5% auto;
         width:60%;
     
     }
@@ -177,7 +178,7 @@
 
     .title{
         direction: rtl;
-        font-family: "Dragon";
+        font-family: "Fredoka";
         font-size: 2.7rem;
         margin:2% auto;
        
@@ -222,7 +223,7 @@
    
     .title{
         direction: rtl;
-        font-family: "Dragon";
+        font-family: "Fredoka";
         font-size: 2.7rem;
         margin:2% auto;
        
@@ -265,7 +266,7 @@
     
     .title{
         direction: rtl;
-        font-family: "Dragon";
+        font-family: "Fredoka";
         font-size:3rem;
         margin:2% auto;
        
@@ -308,7 +309,7 @@
 
     .title{
         direction: rtl;
-        font-family: "Dragon";
+        font-family: "Fredoka";
         font-size:3.2rem;
         margin:2% auto;
        

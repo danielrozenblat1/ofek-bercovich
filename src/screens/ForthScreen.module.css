@@ -14,9 +14,10 @@ align-items: center;
     direction: rtl;
     color:rgb(66, 13, 116);
     text-align: center;
-    margin:2% auto ;
-    font-family: "Dragon";
-  
+    margin:3% auto -2%;
+    width:75%;
+    font-family: "Fredoka";
+    text-align: right;
 }
 
 .subTitle{
@@ -51,8 +52,9 @@ align-items: center;
     display: flex;
     flex-direction: row;
     width:90%;
+    align-items: center;
 justify-content: space-evenly;
-    margin:3% auto;
+    margin:0 auto;
   }
 
   @media only screen and (max-width: 350px) {
@@ -73,7 +75,8 @@ justify-content: space-evenly;
     color:rgb(66, 13, 116);
     text-align: center;
     margin:2% auto ;
-    font-family: "Dragon";
+    
+    font-family: "Fredoka";
   
 }
   .subTitle{
@@ -109,7 +112,7 @@ justify-content: space-evenly;
       flex-direction: column;
       width:90%;
   justify-content: space-evenly;
-      margin:3% auto;
+      margin:2% auto;
     }
   }
   @media only screen and (min-width: 350px) and (max-width: 450px) {
@@ -130,7 +133,8 @@ justify-content: space-evenly;
     color:rgb(66, 13, 116);
     text-align: center;
     margin:2% auto ;
-    font-family: "Dragon";
+   
+    font-family: "Fredoka";
   
 }
   .subTitle{
@@ -166,7 +170,7 @@ justify-content: space-evenly;
       flex-direction: column;
       width:95%;
   justify-content: space-evenly;
-      margin:3% auto;
+      margin:2% auto;
     }
   }
   @media only screen and (min-width: 450px) and (max-width: 550px) {
@@ -187,7 +191,7 @@ justify-content: space-evenly;
     color:rgb(66, 13, 116);
     text-align: center;
     margin:2% auto ;
-    font-family: "Dragon";
+    font-family: "Fredoka";
   
 }
   .subTitle{
@@ -244,7 +248,7 @@ justify-content: space-evenly;
     color:rgb(66, 13, 116);
     text-align: center;
     margin:2% auto ;
-    font-family: "Dragon";
+    font-family: "Fredoka";
   
 }
   .subTitle{
@@ -301,7 +305,7 @@ justify-content: space-evenly;
     color:rgb(66, 13, 116);
     text-align: center;
     margin:2% auto ;
-    font-family: "Dragon";
+    font-family: "Fredoka";
   
 }
   .subTitle{
@@ -359,7 +363,7 @@ justify-content: space-evenly;
     color:rgb(66, 13, 116);
     text-align: center;
     margin:2% auto ;
-    font-family: "Dragon";
+    font-family: "Fredoka";
   
 }
   .subTitle{
@@ -416,7 +420,7 @@ justify-content: space-evenly;
     color:rgb(66, 13, 116);
     text-align: center;
     margin:2% auto ;
-    font-family: "Dragon";
+    font-family: "Fredoka";
   
 }
   .subTitle{
@@ -474,7 +478,7 @@ justify-content: space-evenly;
     color:rgb(66, 13, 116);
     text-align: center;
     margin:2% auto ;
-    font-family: "Dragon";
+    font-family: "Fredoka";
   
 }
   .subTitle{
