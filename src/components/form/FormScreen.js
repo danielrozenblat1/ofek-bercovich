@@ -15,7 +15,6 @@ const FormScreen = () => {
     const name = nameRef.current.value;
     const phone = phoneRef.current.value;
     const email = emailRef.current.value;
-
     const agree = agreeRef.current.checked;
 
     if (name.trim().length <= 2) {
@@ -39,10 +38,10 @@ const FormScreen = () => {
       name: name,
       phone: phone,
       email: email,
-    
       reciver: reciver,
     };
 
+    // שליחת הבקשה הראשונה
     const response = await fetch('https://dynamic-server-dfc88e1f1c54.herokuapp.com/leads/newLead', {
       method: "POST",
       headers: { 'Content-Type': 'application/json' },
@@ -50,19 +49,29 @@ const FormScreen = () => {
     });
 
     if (response.ok) {
-      alert("שמרנו את הפרטים שלך, ניצור קשר בימים הקרובים");
-      nameRef.current.value = "";
-      phoneRef.current.value = "";
-      emailRef.current.value = "";
-      agreeRef.current.checked = false;
+      // שליחת הבקשה השנייה
+      try {
+        const secondApiUrl = `https://panel.sendmsg.co.il/AddUserFromSite.aspx?cellphone=${encodeURIComponent(phone)}&email=${encodeURIComponent(email)}&1=${encodeURIComponent(name)}&form=335852__a46f180f-5b91-4fb5-ac2c-3a17c3917fcb`;
+        
+        await fetch(secondApiUrl);
+        
+        // ניקוי הטופס והצגת ההודעה רק אם שתי הבקשות הצליחו
+        alert("שמרנו את הפרטים שלך, ניצור קשר בימים הקרובים");
+        nameRef.current.value = "";
+        phoneRef.current.value = "";
+        emailRef.current.value = "";
+        agreeRef.current.checked = false;
+      } catch (error) {
+        console.error("שגיאה בשליחת הנתונים ל-API השני:", error);
+      }
     }
+    
     console.log(formData);
-  };
-
+};
   return (
     <>
       <div className={styles.title} id="צרו קשר">
-      מלאי פרטים ואחזור אליך בהקדם
+      לקבלת עדכונים על סדנאות ותכנים מעשירים
       </div>
       <form className={styles.form}>
         <div className={styles.column}>
@@ -75,7 +84,7 @@ const FormScreen = () => {
             מאשרת קבלת דיוור במייל
           </label>
           <button className={styles.button} onClick={submitHandler}>
-            אופק, אני מחכה לשיחה
+          שלחי
           </button>
         </div>
       </form>
