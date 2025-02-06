@@ -31,6 +31,18 @@ import result27 from "../images/אופק ברקוביץ המלצות קורסי�
 import result28 from "../images/אופק ברקוביץ המלצות קורסים 7.png"
 import result29 from "../images/אופק ברקוביץ המלצות קורסים 8.png"
 import result30 from "../images/אופק ברקוביץ המלצות קורסים 9.png"
+import result31 from "../images/אופק ברקוביץ המלצות חדשות 1.png"
+import result32 from "../images/אופק ברקוביץ המלצות חדשות 2.png"
+import result33 from "../images/אופק ברקוביץ המלצות חדשות 3.png"
+import result34 from "../images/אופק ברקוביץ המלצות חדשות 4.png"
+import result35 from "../images/אופק ברקוביץ המלצות חדשות 5.png"
+import result36 from "../images/אופק ברקוביץ המלצות חדשות 6.png"
+import result37 from "../images/אופק ברקוביץ המלצות חדשות 7.png"
+import result38 from "../images/אופק ברקוביץ המלצות חדשות 8.png"
+import result39 from "../images/אופק ברקוביץ המלצות חדשות 9.png"
+import result40 from "../images/אופק ברקוביץ המלצות חדשות 10.png"
+import result41 from "../images/אופק ברקוביץ המלצות חדשות 11.png"
+
 
 
 
@@ -62,6 +74,10 @@ const SecondScreen=()=>{
           src: result1,
         },
         {
+          type: 'image',
+          src: result31,
+        },
+        {
             type: 'image',
             src: result2,
           },
@@ -71,15 +87,39 @@ const SecondScreen=()=>{
           },
           {
             type: 'image',
+            src: result32,
+          },
+          {
+            type: 'image',
+            src: result33,
+          },
+          {
+            type: 'image',
+            src: result34,
+          },
+          {
+            type: 'image',
             src: result9,
           },
           {
               type: 'image',
               src: result10,
             },
+            {
+              type: 'image',
+              src: result35,
+            },    
+            {
+              type: 'image',
+              src: result36,
+            },   
           {
             type: 'image',
             src: result4,
+          },
+          {
+            type: 'image',
+            src: result37,
           },
           {
             type: 'image',
@@ -96,9 +136,24 @@ const SecondScreen=()=>{
         },
         {
           type: 'image',
+          src: result38,
+        },
+        {
+          type: 'image',
+          src: result39,
+        },
+        {
+          type: 'image',
           src: result8,
         },
-  
+        {
+          type: 'image',
+          src: result40,
+        },
+        {
+          type: 'image',
+          src: result41,
+        },
         {
           type: 'image',
           src: result11,
