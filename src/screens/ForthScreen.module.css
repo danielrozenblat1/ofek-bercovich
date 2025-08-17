@@ -1,0 +1,567 @@
+.center{
+    width:30%;
+    display: flex;
+    justify-content: center;
+margin:2% auto;
+align-items: center;
+}
+.image{
+    width:100%;
+    object-fit: contain;
+}
+.title{
+    font-size:3.5rem;
+    direction: rtl;
+    color:rgb(66, 13, 116);
+    text-align: center;
+    margin:3% auto -2%;
+    width:75%;
+    font-family: "Fredoka";
+    text-align: right;
+}
+
+.subTitle{
+  font-size:1.5rem;
+  direction: rtl;
+  width:60%;
+  
+  color:black;
+  justify-content: center;
+  text-align: right;
+  margin:2% auto ;
+  font-family: "Assistant";
+  font-weight: bold;
+}
+.description{
+
+    direction: rtl;
+    font-family: "AssistantR";
+    font-size:1.4rem;
+    margin:2% auto ;
+    width:80%;
+    text-align: right;
+
+  }
+  .column{
+    display: flex;
+    flex-direction: column;
+    width:80%;
+
+  }
+  .wrap{
+    display: flex;
+    flex-direction: row;
+    width:90%;
+    align-items: center;
+justify-content: space-evenly;
+    margin:0 auto;
+  }
+
+  @media only screen and (max-width: 350px) {
+
+    .center{
+      width:70%;
+      display: flex;
+      justify-content: center;
+  margin:2% auto;
+  }
+  .image{
+      width:100%;
+      object-fit: contain;
+  }
+  .title{
+    font-size:1.8rem;
+    direction: rtl;
+    color:rgb(66, 13, 116);
+    text-align: center;
+    margin:2% auto ;
+    
+    font-family: "Fredoka";
+  
+}
+  .subTitle{
+    font-size:1.2rem;
+    direction: rtl;
+    width:100%;
+    
+    color:black;
+    justify-content: center;
+    text-align: center;
+    margin:2% auto ;
+    font-family: "Assistant";
+    font-weight: bold;
+  }
+  .description{
+  
+      direction: rtl;
+      font-family: "AssistantR";
+      font-size:1.1rem;
+      margin:2% auto;
+      width:100%;
+      text-align: center;
+  
+    }
+    .column{
+      display: flex;
+      flex-direction: column;
+  margin:2% auto;
+  width:95%;
+    }
+    .wrap{
+      display: flex;
+      flex-direction: column;
+      width:90%;
+  justify-content: space-evenly;
+      margin:2% auto;
+    }
+  }
+  @media only screen and (min-width: 350px) and (max-width: 450px) {
+
+    .center{
+      width:75%;
+      display: flex;
+      justify-content: center;
+  margin:2% auto;
+  }
+  .image{
+      width:100%;
+      object-fit: contain;
+  }
+  .title{
+    font-size:2rem;
+    direction: rtl;
+    color:rgb(66, 13, 116);
+    text-align: center;
+    margin:2% auto ;
+   
+    font-family: "Fredoka";
+  
+}
+  .subTitle{
+    font-size:1.4rem;
+    direction: rtl;
+    width:100%;
+    
+    color:black;
+    justify-content: center;
+    text-align: center;
+    margin:2% auto ;
+    font-family: "Assistant";
+    font-weight: bold;
+  }
+  .description{
+  
+      direction: rtl;
+      font-family: "AssistantR";
+      font-size:1.2rem;
+      margin:2% auto ;
+      width:100%;
+      text-align: center;
+  
+    }
+    .column{
+      display: flex;
+      flex-direction: column;
+  margin:2% auto;
+  width:85%;
+    }
+    .wrap{
+      display: flex;
+      flex-direction: column;
+      width:95%;
+  justify-content: space-evenly;
+      margin:2% auto;
+    }
+  }
+  @media only screen and (min-width: 450px) and (max-width: 550px) {
+
+    .center{
+      width:55%;
+      display: flex;
+      justify-content: center;
+  margin:2% auto;
+  }
+  .image{
+      width:100%;
+      object-fit: contain;
+  }
+  .title{
+    font-size:2.2rem;
+    direction: rtl;
+    color:rgb(66, 13, 116);
+    text-align: center;
+    margin:2% auto ;
+    font-family: "Fredoka";
+  
+}
+  .subTitle{
+    font-size:1.5rem;
+    direction: rtl;
+    width:100%;
+    
+    color:black;
+    justify-content: center;
+    text-align: center;
+    margin:2% auto ;
+    font-family: "Assistant";
+    font-weight: bold;
+  }
+  .description{
+  
+      direction: rtl;
+      font-family: "AssistantR";
+      font-size:1.1rem;
+      margin:2% auto ;
+      width:100%;
+      text-align: center;
+  
+    }
+    .column{
+      display: flex;
+      flex-direction: column;
+  width:90%;
+  margin:0 auto;
+  justify-content: center;
+    }
+    .wrap{
+      display: flex;
+      flex-direction: column;
+      width:90%;
+  justify-content: space-evenly;
+      margin:3% auto;
+    }
+  }
+  @media only screen and (min-width: 550px) and (max-width: 650px) {
+    .center{
+      width:50%;
+      display: flex;
+      justify-content: center;
+  margin:2% auto;
+  }
+  .image{
+      width:100%;
+      object-fit: contain;
+  }
+  .title{
+    font-size:2.4rem;
+    direction: rtl;
+    color:rgb(66, 13, 116);
+    text-align: center;
+    margin:2% auto ;
+    font-family: "Fredoka";
+  
+}
+  .subTitle{
+    font-size:1.5rem;
+    direction: rtl;
+    width:100%;
+    
+    color:black;
+    justify-content: center;
+    text-align: center;
+    margin:2% auto ;
+    font-family: "Assistant";
+    font-weight: bold;
+  }
+  .description{
+  
+      direction: rtl;
+      font-family: "AssistantR";
+      font-size:1.2rem;
+      margin:2% auto ;
+      width:100%;
+      text-align: center;
+  
+    }
+    .column{
+      display: flex;
+      flex-direction: column;
+  width:90%;
+  margin:0 auto;
+  justify-content: center;
+    }
+    .wrap{
+      display: flex;
+      flex-direction: column;
+      width:85%;
+  justify-content: space-evenly;
+      margin:3% auto;
+    }
+  }
+  @media only screen and (min-width: 650px) and (max-width: 750px) {
+    .center{
+      width:45%;
+      display: flex;
+      justify-content: center;
+  margin:2% auto;
+  }
+  .image{
+      width:100%;
+      object-fit: contain;
+  }
+  .title{
+    font-size:2.7rem;
+    direction: rtl;
+    color:rgb(66, 13, 116);
+    text-align: center;
+    margin:2% auto ;
+    font-family: "Fredoka";
+  
+}
+  .subTitle{
+    font-size:1.5rem;
+    direction: rtl;
+    width:100%;
+    
+    color:black;
+    justify-content: center;
+    text-align: center;
+    margin:2% auto ;
+    font-family: "Assistant";
+    font-weight: bold;
+  }
+  .description{
+  
+      direction: rtl;
+      font-family: "AssistantR";
+      font-size:1.2rem;
+      margin:2% auto ;
+      width:100%;
+      text-align: center;
+  
+    }
+    .column{
+      display: flex;
+      flex-direction: column;
+  width:90%;
+  margin:0 auto;
+  justify-content: center;
+    }
+    .wrap{
+      display: flex;
+      flex-direction: column;
+      width:80%;
+  justify-content: space-evenly;
+      margin:3% auto;
+    }
+  }
+   
+  @media only screen and (min-width: 750px) and (max-width: 850px) {
+    .center{
+      width:40%;
+      display: flex;
+      justify-content: center;
+  margin:2% auto;
+  }
+  .image{
+      width:100%;
+      object-fit: contain;
+  }
+  .title{
+    font-size:3rem;
+    direction: rtl;
+    color:rgb(66, 13, 116);
+    text-align: center;
+    margin:2% auto ;
+    font-family: "Fredoka";
+  
+}
+  .subTitle{
+    font-size:1.5rem;
+    direction: rtl;
+    width:100%;
+    
+    color:black;
+    justify-content: center;
+    text-align: center;
+    margin:2% auto ;
+    font-family: "Assistant";
+    font-weight: bold;
+  }
+  .description{
+  
+      direction: rtl;
+      font-family: "AssistantR";
+      font-size:1.2rem;
+      margin:2% auto ;
+      width:100%;
+      text-align: center;
+  
+    }
+    .column{
+      display: flex;
+      flex-direction: column;
+  width:90%;
+  margin:0 auto;
+  justify-content: center;
+    }
+    .wrap{
+      display: flex;
+      flex-direction: column;
+      width:80%;
+  justify-content: space-evenly;
+      margin:3% auto;
+    }
+  }
+  @media only screen and (min-width: 850px) and (max-width: 950px) {
+    .center{
+      width:35%;
+      display: flex;
+      justify-content: center;
+  margin:2% auto;
+  }
+  .image{
+      width:100%;
+      object-fit: contain;
+  }
+  .title{
+    font-size:3.2rem;
+    direction: rtl;
+    color:rgb(66, 13, 116);
+    text-align: center;
+    margin:2% auto ;
+    font-family: "Fredoka";
+  
+}
+  .subTitle{
+    font-size:1.7rem;
+    direction: rtl;
+    width:100%;
+    
+    color:black;
+    justify-content: center;
+    text-align: center;
+    margin:2% auto ;
+    font-family: "Assistant";
+    font-weight: bold;
+  }
+  .description{
+  
+      direction: rtl;
+      font-family: "AssistantR";
+      font-size:1.2rem;
+      margin:2% auto ;
+      width:100%;
+      text-align: center;
+  
+    }
+    .column{
+      display: flex;
+      flex-direction: column;
+  width:90%;
+  margin:0 auto;
+  justify-content: center;
+    }
+    .wrap{
+      display: flex;
+      flex-direction: column;
+      width:80%;
+  justify-content: space-evenly;
+      margin:3% auto;
+    }
+  }
+  @media only screen and (min-width: 950px) and (max-width: 1050px) {
+
+    .center{
+      width:35%;
+      display: flex;
+      justify-content: center;
+  margin:2% auto;
+  }
+  .image{
+      width:100%;
+      object-fit: contain;
+  }
+  .title{
+    font-size:3.4rem;
+    direction: rtl;
+    color:rgb(66, 13, 116);
+    text-align: center;
+    margin:2% auto ;
+    font-family: "Fredoka";
+  
+}
+  .subTitle{
+    font-size:1.4rem;
+    direction: rtl;
+    width:95%;
+    
+    color:black;
+    justify-content: center;
+    text-align: center;
+    margin:2% auto ;
+    font-family: "Assistant";
+    font-weight: bold;
+  }
+  .description{
+  
+      direction: rtl;
+      font-family: "AssistantR";
+      font-size:1.15rem;
+      margin:2% auto ;
+      width:95%;
+      text-align: center;
+  
+    }
+    .column{
+      display: flex;
+      flex-direction: column;
+  
+    }
+    .wrap{
+      display: flex;
+      flex-direction: row;
+      width:90%;
+  justify-content: space-evenly;
+      margin:3% auto;
+    }
+  }
+  @media only screen and (min-width: 1050px) and (max-width: 1250px) {
+
+    .center{
+      width:35%;
+      display: flex;
+      justify-content: center;
+  margin:2% auto;
+  align-items: center;
+  }
+  .image{
+      width:100%;
+      object-fit: contain;
+  }
+
+  .subTitle{
+    font-size:1.5rem;
+    direction: rtl;
+    width:85%;
+    
+    color:black;
+    justify-content: center;
+    text-align: center;
+    margin:2% auto ;
+    font-family: "Assistant";
+    font-weight: bold;
+  }
+  .description{
+  
+      direction: rtl;
+      font-family: "AssistantR";
+      font-size:1.25rem;
+      margin:2% auto ;
+      width:85%;
+      text-align: center;
+  
+    }
+    .column{
+      display: flex;
+      flex-direction: column;
+  
+    }
+    .wrap{
+      display: flex;
+      flex-direction: row;
+      width:90%;
+  justify-content: space-evenly;
+      margin:3% auto;
+    }
+  }
